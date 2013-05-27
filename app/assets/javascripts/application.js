@@ -13,3 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+$(function(){
+	$('.video-play').click(function(event){
+		event.stopPropagation();
+		console.log(1);
+		$('#gn-content-video').append('<iframe id="video-url" src="http://www.youtube.com/v/_mO79hZaA2s&version=3&autoplay=1&rel=0&color1=0x2b405b&color2=0x6b8ab6&border=1&fs=1" frameborder="0" allowfullscreen></iframe>');
+	});
+
+});

@@ -4,6 +4,7 @@
 $bgBody:#f2f2f2;
 $iconLogo:url("gn-logo.png");
 $bgHeader:url("gn-header.png");
+$iconPlay:url("gn-play.png");
 
 *{ 
   margin: 0; 
@@ -26,9 +27,79 @@ body{
 section#gn-content{
   position: relative;
   width: 718px;
-  height: auto;
-  background: #1161d9;
+  height: auto;  
   float: right;
+  section#gn-content-mailchimp{    
+    margin: 50px 50px 0 45px;
+    position: relative;
+    div#gn-content-mailchimp-login{
+      position: relative;
+      span:first-child {
+        float: left;
+      }
+      span:last-child{
+        float: right;
+      }
+    }
+    div#gn-content-mailchimp-form{
+      clear: both;
+      padding-top: 15px;
+    }
+    span{
+      font-size: 12px;
+      display: inline-block;
+      color: #3b3c48;
+      a{
+        text-decoration: none;
+        color: #7c9d35;
+      }
+    }
+  }
+  section#gn-content-video{
+    width: 620px;
+    height:335px;
+    margin-top: 38px;
+    margin-left: 55px;
+    position: relative;
+    background-color:#FFF;
+    iframe{
+      position: absolute;
+      width: 100%;
+      height:100%;
+    }
+    img.video-thumbnail{
+      width: 100%;
+      height: 100%;
+    }
+    div.video-popup{
+      text-align: center;
+      width: 365px;
+      height: 170px;
+      left: 50%;
+      top: 50%;
+      margin: -85px auto 0 -182.5px;
+      position: absolute;
+      h1{
+        color: #006b85;
+      }
+      h4{
+        color: #7c7c7d;
+        font-weight: normal;
+      }
+      span{
+        font-size: 12px;
+        color: #313131;
+      }      
+      div.video-play{
+        background: $iconPlay;
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 30px;
+        margin: 25px auto;
+        cursor: pointer;
+      }
+    }
+  }
 }
 aside#gn-sidebar{
   position: relative;;
