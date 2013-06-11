@@ -1,0 +1,21 @@
+<%= form_for @user, :url => {:action => "index"} do |f| %>
+  <div class="field">
+    <%= f.label :FNAME %><br />
+    <%= f.text_field :FNAME %>
+  </div>
+  <div class="field">
+    <%= f.label :LNAME %><br />
+    <%= f.text_field :LNAME %>
+  </div>
+  <div class="field">
+    <%= f.label :EMAIL %><br />
+    <%= f.text_field :EMAIL %>
+  </div>
+   <div class="field">
+    <%= f.label :CP %><br />
+    <%= f.text_field :CP %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<%end%>

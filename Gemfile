@@ -21,7 +21,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
+gem "mailchimp", "~> 0.0.8"
+gem "gibbon", "~> 0.4.6"
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

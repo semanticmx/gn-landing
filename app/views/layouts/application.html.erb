@@ -7,8 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <header class="gn-header"></header>
+  <div id="gn-body">
+    <%= yield %>
+  </div>
+  <footer class="gn-footer"></footer>
 </body>
 </html>

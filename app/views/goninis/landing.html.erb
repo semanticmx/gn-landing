@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
   <div id="gn">
-    <header class="gn-header">
-
-    </header>
     <div id="gn-body">
-      <%= @post.description.html_safe %>
+      <aside id="gn-sidebar"><div id="gn-logo"></div><nav id="gn-menu-nav"><ul><li><a href="#" class="gn-text-highlight"><span>SEGURIDAD</span><br/>nuestra tarea No.1</a></li><li><a href="#">Nosotros</a></li><li><a href="#">Como funciona?</a></li><li><a href="#">Por qu&eacute;utilizar goninis?</a></li><li><a href="#">Promociones</a></li><li><a href="#" class="gn-text-highlight">Convi&eacute;rtete en Handy</a></li></ul></nav></aside><section id="gn-content"><section id="gn-content-mailchimp"><div id="gn-content-mailchimp-login"><span class="mailchimp-message">Te avisaremos cuando estemos en tu comunidad</span><span class="mailchimp-login">Si ya tienes un usuario<a href="#">haz click aqu&iacute;</a></span></div><div id="gn-content-mailchimp-form">
 
+      <%= render 'form'%>
+
+    </div></section><section id="gn-content-video"><!--<img src="http://img.youtube.com/vi/_mO79hZaA2s/maxresdefault.jpg" alt="" class="video-thumbnail"/>--><!--<iframe class="video-url" src="http://www.youtube.com/embed/_mO79hZaA2s" frameborder="0" allowfullscreen></iframe>--><div class="video-popup"><h1>Necesitas m&aacute;s tiempo en tu d&iacute;a?,</h1><h4>lo hacemos posible</h4><div class="video-play"></div><span>(Aqui te lo explicamos)</span></div></section></section>
     </div>
-    <footer class="gn-footer"></footer>
   </div>
-<p></p>
-</body>
-</html>
