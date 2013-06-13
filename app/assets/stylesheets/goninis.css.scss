@@ -49,23 +49,65 @@ section#gn-content{
       clear: both;
       padding-top: 15px;
       .gn-input{
-        display: inline-block;
-        -webkit-border-radius: 15px;
-        -moz-border-radius: 15px;
-        border-radius: 15px;
+        background-color: #c0c0c0;
+        margin-bottom: 50px;
+        padding: 2px;
+        height: 41px;
+        width: 75%;
+        background: -moz-linear-gradient(center top , #c0c0c0, #fafbfa) repeat scroll 0 0 transparent;
+        background: -webkit-gradient(linear, center top, center bottom, from(#c0c0c0), to(#fafbfa));
+        border-radius: 15px 15px 15px 15px;
+        text-shadow: 0 1px 1px #fafbfa;
+        div{
+          background: -moz-linear-gradient(center top , #dbdbdb, #e7e7e7) repeat scroll 0 0 transparent;
+          background: -webkit-gradient(linear, center top, center bottom, from(#dbdbdb), to(#e7e7e7));
+           border-radius: 10px 10px 10px 10px;
+          height: 38%;
+          padding: 13px;
+          input[type=text]{
+            border-radius: 4px 4px 4px 4px;
+            margin-left: 10px;
+          }
+          label{
+            color: #006b85;
+            font-size: 14px;
+          }
+        }
       }
       .gn-btn{
-        display: inline-block;
-        width: 117px;
-        height: 48px;
-        background: $iconBtn;
-        margin: -15px 0 74px 30px;
-        position: absolute;
+        background-color: #c0c0c0;
+        margin-bottom: 50px;
+        padding: 2px;
+        height: 41px;
+        width: 20%;
+        background: -moz-linear-gradient(center top , #c0c0c0, #FFFFFF) repeat scroll 0 0 transparent;
+        background: -webkit-gradient(linear, center top, center bottom, from(#c0c0c0), to(#ffffff));
+        border-radius: 30px 30px 30px 30px;
+        text-shadow: 0 1px 1px #FFFFFF;
         cursor: pointer;
+        position: absolute;
+        margin-left: 10px;
+        div{
+          background: -moz-linear-gradient(center top , #cacaca, #e3e3e3) repeat scroll 0 0 transparent;
+          background: -webkit-gradient(linear, center top, center bottom, from(#cacaca), to(#e3e3e3));
+          
+          border-radius: 25px 25px 25px 25px;
+          cursor: pointer;
+           height: 30px;
+          padding: 6px;          
+        }
         input[type=submit]{
           width: 100%;
-          height: 100%;  
-          opacity: 0;        
+          height: 100%;            
+          cursor: pointer; 
+          display: inline-block;
+          color: #414447;
+          font-weight: bold;
+          width: 100%;
+          font-size: 16px;
+          border-radius: 25px 25px 25px 25px;
+          background: -moz-linear-gradient(center top , #a3c442, #819f34) repeat scroll 0 0 transparent;
+          background: -webkit-gradient(linear, center top, center bottom, from(#a3c442), to(#819f34));
         }
       }
     }
@@ -148,6 +190,11 @@ aside#gn-sidebar{
         display: block;
         padding: 16px 0;
         list-style: none outside none;
+        border-image: linear-gradient(0deg, transparent, #bcbcbc 50%, transparent) 1 0 100%;
+        -webkit-border-image: -webkit-linear-gradient(0deg, transparent, #bcbcbc 50%, transparent) 1 0 100%;
+        -o-border-image: -o-linear-gradient(0deg, transparent, #bcbcbc 50%, transparent) 1 0 100%;
+        -moz-border-image: -moz-linear-gradient(0deg, transparent, #bcbcbc 50%, transparent) 1 0 100%;
+        border-top-width: 2px;
         a{
            text-decoration: none;
            color: #3b3c48;
