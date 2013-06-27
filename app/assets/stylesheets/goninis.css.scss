@@ -6,7 +6,10 @@ $bgBody:#f2f2f2;
 $iconLogo:url("gn-logo.png");
 $bgHeader:url("gn-header.png");
 $iconPlay:url("gn-play.png");
+$iconPlayHover:url("gn-play-hover.png");
 $iconBtn:url("gn-btn.png");
+$iconTwitter:url("gn-twitter.png");
+$iconFacebook:url("gn-facebook.png");
 
 *{ 
   margin: 0; 
@@ -103,7 +106,7 @@ section#gn-content{
       .gn-btn{
         background-color: #c0c0c0;
         margin-bottom: 50px;
-        padding: 2px 2px 2px 4px;
+        padding: 2px 2px 2px 2px;
         height: 41px;
         width: 17.5%;
         background: -moz-linear-gradient(center top , #c0c0c0, #FFFFFF) repeat scroll 0 0 transparent;
@@ -114,13 +117,15 @@ section#gn-content{
         position: absolute;
         margin-left: 26px;
         div{
-          background: -moz-linear-gradient(center top , #cacaca, #e3e3e3) repeat scroll 0 0 transparent;
-          background: -webkit-gradient(linear, center top, center bottom, from(#cacaca), to(#e3e3e3));
-          
+          background: -moz-linear-gradient(center top , #cacaca 50%, #e3e3e3) repeat scroll 0 0 transparent;
+          background: -webkit-gradient(linear, center top, center bottom, from(#cacaca), to(#e3e3e3));          
           border-radius: 25px 25px 25px 25px;
           cursor: pointer;
            height: 30px;
-          padding: 6px;          
+          padding: 6px;
+          &:hover{
+            background: -moz-radial-gradient(center center, circle cover, #f2f2f2 10%, #cacaca 74%, #cacaca 40%);
+          }          
         }
         input[type=submit]{
           font-family: 'Bitter',serif;
@@ -132,9 +137,17 @@ section#gn-content{
           width: 100%;
           font-size: 16px;
           border-radius: 25px 25px 25px 25px;
-          background: -moz-linear-gradient(center top , #a3c442, #819f34) repeat scroll 0 0 transparent;
+          background: -moz-linear-gradient(center top ,#a3c442, #819f34) repeat scroll 0 0 transparent;
           background: -webkit-gradient(linear, center top, center bottom, from(#a3c442), to(#819f34));
         }
+      }
+      .gn-alert{
+        color: #333333;
+        font-size: 16px;
+        font-family: 'Bitter',serif;
+        margin-left: 20px;
+        position: absolute;
+        top: 90px;
       }
     }
     span{
@@ -208,6 +221,9 @@ section#gn-content{
         height: 30px;
         margin: 24px auto;
         cursor: pointer;
+        &:hover{
+          background: $iconPlayHover;
+        }
       }
     }
   }
@@ -256,10 +272,13 @@ aside#gn-sidebar{
           background: #F2F2F2;
           display: inline-block;
           height: 100%;
-          padding-bottom: 13px;
-          padding-top: 18px;
+          padding-bottom: 14px;
+          padding-top: 17px;
           text-decoration: none;
           width: 100%;
+          &:hover{
+            background: -moz-radial-gradient(center center, circle cover, #e8e8e8 5%, #f2f2f2 70%, #f2f2f2 40%);
+          }
         }
         a.gn-text-highlight{
           color: #006b85;          
@@ -288,12 +307,45 @@ aside#gn-sidebar{
   width: 100%;
 }
 .gn-footer{
-  background: -webkit-linear-gradient(to top, #454757 88%, #000);
-  background: -moz-linear-gradient(to top,#454757 88%, #000);
-  background: -o-linear-gradient(to top,#454757 88%, #000);
-  background: linear-gradient(to top,#454757 88%, #000);
+  background: -webkit-linear-gradient(to top, #3b3c48 88%, #121216);
+  background: -moz-linear-gradient(to top,#3b3c48 88%, #121216);
+  background: -o-linear-gradient(to top,#3b3c48 88%, #121216);
+  background: linear-gradient(to top,#3b3c48 88%, #121216);
   position: relative;
   width: 100%;
   height: 71px;
   clear: both;
+  div.gn-footer-policy{
+    color: #ffffff;
+    font-size: 12px;
+    float: right;
+    margin-right: 202px;
+    margin-top: 30px;
+    cursor: pointer;
+    &:hover{
+      color:#c3c3c3;      
+    }
+  }
+  div.gn-footer-social-networks{
+    float: left;
+    margin-left: 208px;
+    margin-top: 18px;
+    span.twitter{
+      background: $iconTwitter;
+      background-repeat: no-repeat;
+      width: 37px;
+      height: 36px;
+      display: inline-block;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+    span.facebook{
+      background: $iconFacebook;
+      background-repeat: no-repeat;
+      width: 37px;
+      height: 36px;
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
 }
