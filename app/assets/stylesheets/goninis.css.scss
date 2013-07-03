@@ -20,11 +20,9 @@ body{
   position: relative;
   width: 100%;
   height: auto;  
-  background: $bgBody; 
-  /*background: #4A4A54;*/
+  background: $bgBody;
 }
 #gn-body{
-  /*background: $bgBody;*/
   background-image: linear-gradient(to bottom, #f2f2f2   10%, #4a4a54);  
 }
 #gn{
@@ -38,12 +36,7 @@ section#gn-content{
   position: relative;
   width: 680px;
   height: auto;  
-  float: right;
-  border-image: linear-gradient(90deg, transparent, #000 50%, transparent) 1 100%;
-  -webkit-border-image: -webkit-linear-gradient(90deg, transparent, #000 50%, transparent) 1 100%;
-  -o-border-image: -o-linear-gradient(90deg, transparent, #000 50%, transparent) 1 100%;
-  border-image-source: linear-gradient(to top, red, yellow) ;
-  border-left-width: 2px;    
+  float: right;  
   section#gn-content-mailchimp{    
     margin: 50px 30px 0 22px;
     position: relative;
@@ -125,6 +118,7 @@ section#gn-content{
           padding: 6px;
           &:hover{
             background: -moz-radial-gradient(center center, circle cover, #f2f2f2 10%, #cacaca 74%, #cacaca 40%);
+            background: -webkit-radial-gradient(center top , circle cover, #f2f2f2 10%, #cacaca 80%, #cacaca 40%);
           }          
         }
         input[type=submit]{
@@ -171,6 +165,7 @@ section#gn-content{
     background: linear-gradient(to top, #e9e9e9, #feffff); 
     div.gn-content-video-border-left{
       background: -moz-radial-gradient(center right, ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%); 
+      background: -webkit-radial-gradient(center right , ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%);
       height: 100%;
       left: -25px;
       position: absolute;
@@ -178,6 +173,7 @@ section#gn-content{
     }
     div.gn-content-video-border-right{
       background: -moz-radial-gradient(center left, ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%); 
+      background: -webkit-radial-gradient(center left , ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%);
       float: right;
       height: 100%;
       width: 25px;
@@ -235,11 +231,11 @@ aside#gn-sidebar{
   float: left;
   div.gn-sidebar-border{
     border-left: 1px solid #EDEDED;  
-    background: radial-gradient(center left , ellipse , #cbcbcb, #f2f2f2 72px);
+    background: radial-gradient(center left , ellipse , #cbcbcb 6%, #f2f2f2 72px);
     background: -moz-radial-gradient(center left, ellipse cover, #cbcbcb 6%, #f2f2f2 70%, #f2f2f2 40%); 
-    background: -webkit-radial-gradient(center left , ellipse , #cbcbcb, #f2f2f2 72px);
-    background: -ms-radial-gradient(center left , ellipse , #cbcbcb, #f2f2f2 72px);
-    background: -o-radial-gradient(center left , ellipse , #cbcbcb, #f2f2f2 72px);
+    background: -webkit-radial-gradient(center left , ellipse , #cbcbcb 6%, #f2f2f2 70%, #f2f2f2 40%);
+    background: -ms-radial-gradient(center left , ellipse , #cbcbcb 6%, #f2f2f2 70%);
+    background: -o-radial-gradient(center left , ellipse , #cbcbcb 6%, #f2f2f2 70%);
     height: 100%;
     left: 90%;
     position: absolute;
@@ -278,6 +274,7 @@ aside#gn-sidebar{
           width: 100%;
           &:hover{
             background: -moz-radial-gradient(center center, circle cover, #e8e8e8 5%, #f2f2f2 70%, #f2f2f2 40%);
+            background: -webkit-radial-gradient(center top, circle cover, #cbcbcb -70%, #f2f2f2 78%, #f2f2f2 40%);
           }
         }
         a.gn-text-highlight{
@@ -291,6 +288,7 @@ aside#gn-sidebar{
     }
     .gn-menu-wrapper{
       background: -moz-radial-gradient(center top, ellipse cover, #cbcbcb 10%, #f2f2f2 74%, #f2f2f2 40%);
+      background: -webkit-radial-gradient(center top , ellipse cover, #cbcbcb 10%, #f2f2f2 80%, #f2f2f2 40%);
       height: 4px;
     }
     .first{
@@ -301,6 +299,8 @@ aside#gn-sidebar{
 .gn-header{  
   background-color: #454757;
   background-image: linear-gradient(to bottom, #31313b 10%, #4a4a54);
+  background: -webkit-linear-gradient(to bottom, #31313b 10%, #4a4a54);
+  background: -moz-linear-gradient(to bottom,#31313b 10%, #4a4a54);
   background-repeat: repeat-x;
   border-bottom: 1px solid #4a4a54;
   height: 37px;
