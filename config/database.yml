@@ -28,7 +28,7 @@ development:
   database: goninis_development
   pool: 5
   username: goninis
-  password: gjpv
+  password: footoh7H
 test:
   adapter: postgresql
   database: goninis_test
@@ -36,4 +36,4 @@ test:
   encoding: unicode
   pool: 5
   username: goninis
-  password: gjpv
+  password: footoh7H
