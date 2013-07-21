@@ -1,11 +1,15 @@
-// Place all the styles related to the Goninis controller here.
+ // Place all the styles related to the Goninis controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(http://fonts.googleapis.com/css?family=Bitter&subset=latin,latin-ext);
 $bgBody:#f2f2f2;
 $iconLogo:url("gn-logo.png");
 $bgHeader:url("gn-header.png");
 $iconPlay:url("gn-play.png");
+$iconPlayHover:url("gn-play-hover.png");
 $iconBtn:url("gn-btn.png");
+$iconTwitter:url("gn-twitter.png");
+$iconFacebook:url("gn-facebook.png");
 
 *{ 
   margin: 0; 
@@ -16,25 +20,25 @@ body{
   position: relative;
   width: 100%;
   height: auto;  
-  background: $bgBody; 
+  background: $bgBody;
 }
 #gn-body{
-  background: $bgBody;  
+  background-image: linear-gradient(to bottom, #f2f2f2   10%, #4a4a54);  
 }
 #gn{
   position: relative;
-  width: 1022px;
+  width: 1018px;
   height: auto;
   margin: 0 auto;
   background: $bgBody;  
 }
 section#gn-content{
   position: relative;
-  width: 718px;
+  width: 680px;
   height: auto;  
-  float: right;
+  float: right;  
   section#gn-content-mailchimp{    
-    margin: 50px 50px 0 45px;
+    margin: 50px 30px 0 22px;
     position: relative;
     div#gn-content-mailchimp-login{
       position: relative;
@@ -43,11 +47,12 @@ section#gn-content{
       }
       span:last-child{
         float: right;
+        margin-right: 11px;
       }
     }
     div#gn-content-mailchimp-form{
       clear: both;
-      padding-top: 15px;
+      padding-top: 22px;
       .gn-input{
         background-color: #c0c0c0;
         margin-bottom: 50px;
@@ -57,64 +62,94 @@ section#gn-content{
         background: -moz-linear-gradient(center top , #c0c0c0, #fafbfa) repeat scroll 0 0 transparent;
         background: -webkit-gradient(linear, center top, center bottom, from(#c0c0c0), to(#fafbfa));
         border-radius: 15px 15px 15px 15px;
-        text-shadow: 0 1px 1px #fafbfa;
+        text-shadow: 0 1px 1px #fafbfa;        
         div{
           background: -moz-linear-gradient(center top , #dbdbdb, #e7e7e7) repeat scroll 0 0 transparent;
           background: -webkit-gradient(linear, center top, center bottom, from(#dbdbdb), to(#e7e7e7));
            border-radius: 10px 10px 10px 10px;
           height: 38%;
-          padding: 13px;
+          padding: 7px 13px 19px;
+          #CP{
+            margin-left: 5px;
+            width: 60px;
+          }
+          #EMAIL{
+            width: 236px;
+            margin-right: 28px;
+          }
           input[type=text]{
-            border-radius: 4px 4px 4px 4px;
-            margin-left: 10px;
+            border-radius: 5px 5px 5px 5px;
+            margin-left: 16px;
+            background: #f3f3f3;
+            color: #9a9a9b;
+            padding: 2px;
+            height: 22px;
+            font-family: 'Bitter',serif;
+            border: 1px solid #cdcdcd;
+            font-weight: bolder;
+            font-size: 11px;
           }
           label{
             color: #006b85;
             font-size: 14px;
+            margin-left: -3px;
           }
         }
       }
       .gn-btn{
         background-color: #c0c0c0;
         margin-bottom: 50px;
-        padding: 2px;
+        padding: 2px 2px 2px 2px;
         height: 41px;
-        width: 20%;
+        width: 17.5%;
         background: -moz-linear-gradient(center top , #c0c0c0, #FFFFFF) repeat scroll 0 0 transparent;
         background: -webkit-gradient(linear, center top, center bottom, from(#c0c0c0), to(#ffffff));
         border-radius: 30px 30px 30px 30px;
         text-shadow: 0 1px 1px #FFFFFF;
         cursor: pointer;
         position: absolute;
-        margin-left: 10px;
+        margin-left: 26px;
         div{
-          background: -moz-linear-gradient(center top , #cacaca, #e3e3e3) repeat scroll 0 0 transparent;
-          background: -webkit-gradient(linear, center top, center bottom, from(#cacaca), to(#e3e3e3));
-          
+          background: -moz-linear-gradient(center top , #cacaca 50%, #e3e3e3) repeat scroll 0 0 transparent;
+          background: -webkit-gradient(linear, center top, center bottom, from(#cacaca), to(#e3e3e3));          
           border-radius: 25px 25px 25px 25px;
           cursor: pointer;
            height: 30px;
-          padding: 6px;          
+          padding: 6px;
+          &:hover{
+            background: -moz-radial-gradient(center center, circle cover, #f2f2f2 10%, #cacaca 74%, #cacaca 40%);
+            background: -webkit-radial-gradient(center top , circle cover, #f2f2f2 10%, #cacaca 80%, #cacaca 40%);
+          }          
         }
         input[type=submit]{
+          font-family: 'Bitter',serif;
           width: 100%;
           height: 100%;            
           cursor: pointer; 
           display: inline-block;
           color: #414447;
-          font-weight: bold;
           width: 100%;
           font-size: 16px;
           border-radius: 25px 25px 25px 25px;
-          background: -moz-linear-gradient(center top , #a3c442, #819f34) repeat scroll 0 0 transparent;
+          background: -moz-linear-gradient(center top ,#a3c442, #819f34) repeat scroll 0 0 transparent;
           background: -webkit-gradient(linear, center top, center bottom, from(#a3c442), to(#819f34));
         }
       }
+      .gn-alert{
+        color: #333333;
+        font-size: 16px;
+        font-family: 'Bitter',serif;
+        margin-left: 20px;
+        position: absolute;
+        top: 90px;
+      }
     }
     span{
-      font-size: 12px;
+      font-size: 11px;
       display: inline-block;
       color: #3b3c48;
+      font-weight: bold;
+      font-family: 'Bitter',serif;
       a{
         text-decoration: none;
         color: #7c9d35;
@@ -122,12 +157,27 @@ section#gn-content{
     }
   }
   section#gn-content-video{
-    width: 620px;
-    height:335px;
-    margin-top: 38px;
-    margin-left: 55px;
-    position: relative;
-    background-color:#FFF;
+    height: 342px;
+    margin-left: 20px;
+    margin-top: -12px;
+    position: absolute;
+    width: 644px;
+    background: linear-gradient(to top, #e9e9e9, #feffff); 
+    div.gn-content-video-border-left{
+      background: -moz-radial-gradient(center right, ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%); 
+      background: -webkit-radial-gradient(center right , ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%);
+      height: 100%;
+      left: -25px;
+      position: absolute;
+      width: 25px;
+    }
+    div.gn-content-video-border-right{
+      background: -moz-radial-gradient(center left, ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%); 
+      background: -webkit-radial-gradient(center left , ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%);
+      float: right;
+      height: 100%;
+      width: 25px;
+    }   
     iframe{
       position: absolute;
       width: 100%;
@@ -138,19 +188,23 @@ section#gn-content{
       height: 100%;
     }
     div.video-popup{
-      text-align: center;
-      width: 365px;
       height: 170px;
-      left: 50%;
-      top: 50%;
-      margin: -85px auto 0 -182.5px;
+      left: 48%;
+      margin: -75px auto 0 -178px;
       position: absolute;
+      text-align: center;
+      top: 50%;
       h1{
         color: #006b85;
+        font-family: 'Bitter',serif;
+        font-weight: normal;
       }
       h4{
         color: #7c7c7d;
         font-weight: normal;
+        font-family: 'Bitter',serif;
+        font-size: 16px;
+        padding-top: 9px;
       }
       span{
         font-size: 12px;
@@ -161,17 +215,33 @@ section#gn-content{
         background-repeat: no-repeat;
         width: 31px;
         height: 30px;
-        margin: 25px auto;
+        margin: 24px auto;
         cursor: pointer;
+        &:hover{
+          background: $iconPlayHover;
+        }
       }
     }
   }
 }
 aside#gn-sidebar{
   position: relative;;
-  width: 304px;
+  width: 336px;
   height: auto;
   float: left;
+  div.gn-sidebar-border{
+    border-left: 1px solid #EDEDED;  
+    background: radial-gradient(center left , ellipse , #cbcbcb 6%, #f2f2f2 72px);
+    background: -moz-radial-gradient(center left, ellipse cover, #cbcbcb 6%, #f2f2f2 70%, #f2f2f2 40%); 
+    background: -webkit-radial-gradient(center left , ellipse , #cbcbcb 6%, #f2f2f2 70%, #f2f2f2 40%);
+    background: -ms-radial-gradient(center left , ellipse , #cbcbcb 6%, #f2f2f2 70%);
+    background: -o-radial-gradient(center left , ellipse , #cbcbcb 6%, #f2f2f2 70%);
+    height: 100%;
+    left: 90%;
+    position: absolute;
+    top: 0;
+    width: 30px;
+  }
   div#gn-logo{
     background: $iconLogo;
     background-repeat: no-repeat;
@@ -180,25 +250,32 @@ aside#gn-sidebar{
   }
   nav#gn-menu-nav{
     text-align: center;
+    width: 278px;
     ul{
       list-style: none;
-      margin: 0 0 50px;
-      padding:0;
+      margin: 0 0 46px;
+      padding-left: 4px;
+      padding-right: 1px;
       li{
         cursor: pointer;
         height: 100%;
         display: block;
-        padding: 16px 0;
         list-style: none outside none;
-        border-image: linear-gradient(0deg, transparent, #bcbcbc 50%, transparent) 1 0 100%;
-        -webkit-border-image: -webkit-linear-gradient(0deg, transparent, #bcbcbc 50%, transparent) 1 0 100%;
-        -o-border-image: -o-linear-gradient(0deg, transparent, #bcbcbc 50%, transparent) 1 0 100%;
-        -moz-border-image: -moz-linear-gradient(0deg, transparent, #bcbcbc 50%, transparent) 1 0 100%;
-        border-top-width: 2px;
         a{
-           text-decoration: none;
-           color: #3b3c48;
-           font-size: 12px;
+          text-decoration: none;
+          color: #3b3c48;
+          font-size: 13px;
+          background: #F2F2F2;
+          display: inline-block;
+          height: 100%;
+          padding-bottom: 14px;
+          padding-top: 17px;
+          text-decoration: none;
+          width: 100%;
+          &:hover{
+            background: -moz-radial-gradient(center center, circle cover, #e8e8e8 5%, #f2f2f2 70%, #f2f2f2 40%);
+            background: -webkit-radial-gradient(center top, circle cover, #cbcbcb -70%, #f2f2f2 78%, #f2f2f2 40%);
+          }
         }
         a.gn-text-highlight{
           color: #006b85;          
@@ -208,24 +285,67 @@ aside#gn-sidebar{
           }
         }        
       }     
+    }
+    .gn-menu-wrapper{
+      background: -moz-radial-gradient(center top, ellipse cover, #cbcbcb 10%, #f2f2f2 74%, #f2f2f2 40%);
+      background: -webkit-radial-gradient(center top , ellipse cover, #cbcbcb 10%, #f2f2f2 80%, #f2f2f2 40%);
+      height: 4px;
+    }
+    .first{
+      margin-bottom: -2px;
     }    
   }
 }
 .gn-header{  
   background-color: #454757;
-  background-image: linear-gradient(to bottom, #353641, #454757);
+  background-image: linear-gradient(to bottom, #31313b 10%, #4a4a54);
+  background: -webkit-linear-gradient(to bottom, #31313b 10%, #4a4a54);
+  background: -moz-linear-gradient(to bottom,#31313b 10%, #4a4a54);
   background-repeat: repeat-x;
-  border-bottom: 1px solid #353641;
+  border-bottom: 1px solid #4a4a54;
   height: 37px;
   width: 100%;
 }
 .gn-footer{
-  background: -webkit-linear-gradient(to top, #454757 88%, #000);
-  background: -moz-linear-gradient(to top,#454757 88%, #000);
-  background: -o-linear-gradient(to top,#454757 88%, #000);
-  background: linear-gradient(to top,#454757 88%, #000);
+  background: -webkit-linear-gradient(to top, #3b3c48 88%, #121216);
+  background: -moz-linear-gradient(to top,#3b3c48 88%, #121216);
+  background: -o-linear-gradient(to top,#3b3c48 88%, #121216);
+  background: linear-gradient(to top,#3b3c48 88%, #121216);
   position: relative;
   width: 100%;
   height: 71px;
   clear: both;
+  div.gn-footer-policy{
+    color: #ffffff;
+    font-size: 12px;
+    float: right;
+    margin-right: 202px;
+    margin-top: 30px;
+    cursor: pointer;
+    &:hover{
+      color:#c3c3c3;      
+    }
+  }
+  div.gn-footer-social-networks{
+    float: left;
+    margin-left: 208px;
+    margin-top: 18px;
+    span.twitter{
+      background: $iconTwitter;
+      background-repeat: no-repeat;
+      width: 37px;
+      height: 36px;
+      display: inline-block;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+    span.facebook{
+      background: $iconFacebook;
+      background-repeat: no-repeat;
+      width: 37px;
+      height: 36px;
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
 }
