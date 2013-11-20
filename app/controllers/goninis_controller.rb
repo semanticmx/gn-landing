@@ -1,21 +1,15 @@
 class GoninisController < ApplicationController
   def landing
-  	require 'mailchimp' # Use the 'mailchimp' gem instead
-  	#@post = Page.find(4); Extrae contenido html 
-  	
-  	#@users = User.create(params)
-  	#api = Mailchimp::API.new("3d4e4db74d95a9dd51e98f2a16c34ff2-us7", timeout: 60)
-  	#api.timeout = 5
-  	#@lists = api.lists({:start => 0, :limit=> 100})["data"]
-  #	@response = api.listSubscribe(id: "00fdd8a64a", email_address:"gonzalo@semantic.mx", :merge_vars => {:EMAIL=>"", :FNAME => "Gonzalo", :LNAME => "JP Vargas", :CP=>12125}) 
-  	 if params[:EMAIL]
-  	 	@nombre = params[:FNAME]
-  	 	api = Mailchimp::API.new("3d4e4db74d95a9dd51e98f2a16c34ff2-us7", timeout: 60)
-  	 	api.timeout = 5
-  	 	@response = api.listSubscribe(id: "00fdd8a64a", email_address: params[:EMAIL], :merge_vars => {:EMAIL=>params[:EMAIL], :CP=> params[:CP]}) 
-      end
+    require 'mailchimp' # Use the 'mailchimp' gem instead
+    if params[:EMAIL]
+      @nombre = params[:FNAME]
+      api = Mailchimp::API.new("b87d563704fc829d31e7bc41eb1da621-us6", timeout: 5)
+      @response = api.listSubscribe(id: "a859092f9d", email_address: params[:EMAIL], :merge_vars => {:EMAIL=>params[:EMAIL], :ZIPCODE=> params[:CP]}) 
+      puts @response
+    end
   end
+  
   def new
-  	@nombre = params[:FNAME]
+    @nombre = params[:FNAME]
   end
 end

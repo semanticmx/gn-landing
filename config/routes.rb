@@ -1,11 +1,5 @@
 GnLanding::Application.routes.draw do
-  get "landing/index"
-
   get "goninis/landing"
-
-  get "say/hello"
-
-  get "say/goodbye"
 
   resources :users
 
@@ -59,7 +53,7 @@ GnLanding::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   #root :to => 'welcome#index'
-  root :to => 'landing#index'
+  root :to => 'goninis#landing'
 
   # See how all your routes lay out with "rake routes"
 
