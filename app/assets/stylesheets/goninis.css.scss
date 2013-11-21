@@ -536,3 +536,27 @@ section.como.header {
 .gn-inner-body.como #gn-content-video {
   margin:81px 0px 0px 28px !important
 }
+.gn-inner-body.porque {
+  #gn-content {
+    .porque.body {
+      background:url(porque-bg_642x467.png) no-repeat;
+      width:642px;
+      height:467px;
+      margin:40px auto;
+      .empresa {
+        background:url(usuario_278x411.png) no-repeat;
+        width:278px;
+        height:411px;
+        float:left;
+        margin-top:30px;
+      }
+      .handy {
+        background:url(handy_285x417.png) no-repeat;
+        width:285px;
+        height:417px;
+        float:right;
+        margin-top:25px;
+      }
+    }
+  }
+}
