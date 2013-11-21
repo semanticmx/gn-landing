@@ -63,6 +63,8 @@ GnLanding::Application.routes.draw do
    match '/nosotros' => 'goninis#nosotros', :as => 'nosotros'
    match '/como' => 'goninis#como', :as => 'como'
    match '/porque' => 'goninis#porque', :as => 'porque'
+   match '/porque/handy' => 'goninis#porque_handy', :as => 'porque_handy'
+   match '/porque/usuario' => 'goninis#porque_usuario', :as => 'porque_usuario'
    match '/registrate' => 'goninis#registrate', :as => 'registrate'
    match '/conviertete' => 'goninis#conviertete', :as => 'conviertete'
 end

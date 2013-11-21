@@ -15,6 +15,10 @@ class GoninisController < ApplicationController
   end
   def porque
   end
+  def porque_handy
+  end
+  def porque_usuario
+  end
   def registrate
   end
   def conviertete
