@@ -9,7 +9,14 @@ class GoninisController < ApplicationController
     end
   end
   
-  def new
-    @nombre = params[:FNAME]
+  def nosotros
+  end
+  def como
+  end
+  def porque
+  end
+  def registrate
+  end
+  def conviertete
   end
 end

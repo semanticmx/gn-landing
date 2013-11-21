@@ -60,4 +60,9 @@ GnLanding::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
    match ':controller(/:action(/:id))(.:format)'
+   match '/nosotros' => 'goninis#nosotros', :as => 'nosotros'
+   match '/como' => 'goninis#como', :as => 'como'
+   match '/porque' => 'goninis#porque', :as => 'porque'
+   match '/registrate' => 'goninis#registrate', :as => 'registrate'
+   match '/conviertete' => 'goninis#conviertete', :as => 'conviertete'
 end
