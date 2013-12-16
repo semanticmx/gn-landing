@@ -2,6 +2,22 @@
   <div class="gn-inner-body registrate">
     <%= render partial: "shared/left-menu" %>
     <section id="gn-content">
+      <div class="join section bg">&nbsp;</div>
+      <div class="join-form">
+        <form>
+          <input type="radio" name="tipo" selected="true" /><label>Soy individuo</label>
+          <input type="radio" name="tipo"  /><label>Soy empresa</label>
+          <input type="text" name="company" placeholder="Nombre de la empresa" />
+          <input type="text" name="nombre" placeholder="Nombre completo" />
+          <input type="text" name="cp" placeholder="Código Postal" />
+          <input type="text" name="email" placeholder="Correo electrónico" />
+          <input type="text" name="password" placeholder="Contraseña" />
+          <div class="clickable redirect"><a href="#"></a></div>
+        </form>
+      </div>
+      <div id="gn-content-mailchimp-form">
+        <%= render partial: "shared/mailchimp_join" %>
+      </div>
     </section>
   </div>
 </div>

@@ -1,0 +1,9 @@
+<%= form_tag :action => 'landing' do %>
+  <span class="gn-input"><div><%= text_field_tag :EMAIL, nil, :placeholder => " escribe aqui" %>
+  <%= text_field_tag :CP, nil, :placeholder => " 00000" %></div></span>
+  <span class="gn-btn"><div><%= submit_tag '' %></div></span>
+<% end %>
+<% if is_success?(@response) %>
+  <div class="gn-alert"><b>Gracias por Unirse a Goninis!</b></div>
+<% else %>
+<% end %>
