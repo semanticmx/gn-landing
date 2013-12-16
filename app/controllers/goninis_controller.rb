@@ -23,4 +23,6 @@ class GoninisController < ApplicationController
   end
   def conviertete
   end
+  def seguridad
+  end
 end

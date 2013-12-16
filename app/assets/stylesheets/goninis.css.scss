@@ -611,10 +611,6 @@ section.como.header {
   cursor:pointer;
 }
 
-.debug {
-  border:1px solid #F00;
-}
-
 div.clickable {
   position:relative;
 }
@@ -637,3 +633,37 @@ div.clickable a {
   /*workaround to make clickable in IE */ 
 }
 
+.gn-inner-body.seguridad .seguridad.body {
+  position:relative;
+}
+.gn-inner-body.seguridad .seguridad.body .info {
+  background:url(seguridad-642x602.png) no-repeat;
+  width:642px;
+  height:602px;
+  margin:50px 0;
+}
+
+.gn-inner-body.seguridad .seguridad.body .li {
+  position:absolute;
+  width:200px;
+  height:145px;
+  top:93px;
+  left:0px;
+  cursor:pointer;
+}
+
+.gn-inner-body.seguridad .seguridad.body .li.row_2 {
+  top:260px;
+}
+
+.gn-inner-body.seguridad .seguridad.body .li.col_2 {
+  left:221px;
+}
+
+.gn-inner-body.seguridad .seguridad.body .li.col_3 {
+  left:441px;
+}
+
+.gn-inner-body.seguridad .seguridad.body .li:hover {
+  background:url(seguridad-boxes-648x318.png) no-repeat;
+}
