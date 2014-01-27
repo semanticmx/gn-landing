@@ -669,7 +669,27 @@ div.clickable a {
 }
 
 .gn-inner-body.seguridad .seguridad.body .li:hover {
-  background:url(seguridad-boxes-648x318.png) no-repeat;
+  background:url(seguridad-boxes-648x318.png) no-repeat -3px 0;
+}
+
+.gn-inner-body.seguridad .seguridad.body .li.col_2:hover {
+  background:url(seguridad-boxes-648x318.png) no-repeat -224px 0;
+}
+
+.gn-inner-body.seguridad .seguridad.body .li.col_3:hover {
+  background:url(seguridad-boxes-648x318.png) no-repeat -445px 0;
+}
+
+.gn-inner-body.seguridad .seguridad.body .li.row_2.col_1:hover {
+  background:url(seguridad-boxes-648x318.png) no-repeat -3px -170px;
+}
+
+.gn-inner-body.seguridad .seguridad.body .li.row_2.col_2:hover {
+  background:url(seguridad-boxes-648x318.png) no-repeat -224px -170px;
+}
+
+.gn-inner-body.seguridad .seguridad.body .li.row_2.col_3:hover {
+  background:url(seguridad-boxes-648x318.png) no-repeat -445px -170px;
 }
 
 .join.section.bg {
