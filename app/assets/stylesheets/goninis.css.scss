@@ -340,6 +340,10 @@ aside#gn-sidebar{
     margin-right: 202px;
     margin-top: 30px;
     cursor: pointer;
+    a {
+        color: #FFF;
+        text-decoration: none;
+    }
     &:hover{
       color:#c3c3c3;      
     }
