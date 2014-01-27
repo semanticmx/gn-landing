@@ -800,3 +800,27 @@ div.clickable a {
     overflow-y: scroll;
     padding: 40px;
 }
+
+#handys_tooltip {
+    position: absolute;
+    
+    top: 34px;
+    left: 335px;
+    
+    width: 52px;
+    height: 20px;
+    
+    cursor: pointer;
+}
+
+#handy_tooltip {
+    position: absolute;
+    
+    top: 430px;
+    left: 57px;
+    
+    width: 47px;
+    height: 20px;
+    
+    cursor: pointer;
+}
