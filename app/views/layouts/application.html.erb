@@ -18,8 +18,13 @@
     <%= yield %>
   </div>
   <footer class="gn-footer">
-  	<div class="gn-footer-social-networks"><span class="twitter"></span><span class="facebook"></span></div>
-  	<div class="gn-footer-policy">Pol&iacute;ticas de privacidad</div>
+    <div class="gn-footer-social-networks">
+        <a href="https://twitter.com/goninis"><span class="twitter"></span></a>
+        <a href="https://www.facebook.com/Goninis"><span class="facebook"></span></a>
+    </div>
+  	<div class="gn-footer-policy">
+        <%= link_to "Política de privacidad", politicas_path %>
+    </div>
   </footer>
 </body>
 </html>

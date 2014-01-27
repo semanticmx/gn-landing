@@ -466,7 +466,7 @@ aside#gn-sidebar{
 .nosotros.body {
   margin: 0 auto;
   width:637px;
-  min-height:500px;
+  min-height:300px;
 }
 .nosotros.body .sergio,
 .nosotros.body .nismet,
@@ -762,4 +762,17 @@ div.clickable a {
   left:133px;
   width:116px;
   height:30px;
+}
+
+.gn-inner-body.politicas #gn-content {
+    font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    font-weight: bolder;
+    margin: 40px 0;
+    border: 1px solid #999;
+    height: 600px;
+    width: 600px;
+    overflow-y: scroll;
+    padding: 40px;
 }

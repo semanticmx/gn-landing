@@ -25,4 +25,6 @@ class GoninisController < ApplicationController
   end
   def seguridad
   end
+  def politicas
+  end
 end

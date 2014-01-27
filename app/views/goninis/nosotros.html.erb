@@ -20,3 +20,15 @@
     </section>
   </div>
 </div>
+<script>
+    (function($) {
+        $(function() {
+            $('.nosotros.body > div').mouseover(function (evt) {
+                $('.nosotros.body').height('600px');
+            });
+            $('.nosotros.body > div').mouseout(function (evt) {
+                $('.nosotros.body').height('300px');
+            });
+        });
+    })(jQuery);
+</script>
