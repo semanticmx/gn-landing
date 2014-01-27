@@ -162,12 +162,14 @@ section#gn-content{
     }
   }
   section#gn-content-video{
-    height: 342px;
+    height: 390px;
     margin-left: 20px;
     margin-top: -12px;
     position: absolute;
     width: 644px;
     background: linear-gradient(to top, #e9e9e9, #feffff); 
+    background-image: url(como-flow_619x383.png);
+    background-repeat: no-repeat;
     div.gn-content-video-border-left{
       background: -moz-radial-gradient(center right, ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%); 
       background: -webkit-radial-gradient(center right , ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%);
@@ -194,11 +196,10 @@ section#gn-content{
     }
     div.video-popup{
       height: 170px;
-      left: 48%;
-      margin: -75px auto 0 -178px;
+      left: 75%;
       position: absolute;
       text-align: center;
-      top: 50%;
+      top: 62%;
       h1{
         color: #006b85;
         font-family: 'Bitter',serif;
@@ -532,10 +533,11 @@ aside#gn-sidebar{
   margin:200px 0 0 -320px;
 }
 section.como.header {
-  margin:440px auto 10px auto;
+  margin:540px auto 10px auto;
   background-image:url(como-614x1414.png);
+  background-repeat: no-repeat;
   width:611px;
-  height:1885px;
+  height: 1485px;
 }
 .gn-inner-body.como #gn-content-video {
   margin:81px 0px 0px 28px !important
