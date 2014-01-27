@@ -1,12 +1,12 @@
 <div id="gn">
   <div class="gn-inner-body registrate">
     <%= render partial: "shared/left-menu" %>
-    <section id="gn-content">
+    <section id="gn-content" class="clearfix">
       <div class="join section bg">&nbsp;</div>
       <div class="join-form">
         <form>
-          <input type="radio" name="tipo" selected="true" /><label>Soy individuo</label>
-          <input type="radio" name="tipo"  /><label>Soy empresa</label>
+          <input type="radio" name="tipo" value="individuo" checked /><label>Soy individuo</label>
+          <input type="radio" name="tipo" value="empresa" /><label>Soy empresa</label>
           <input type="text" name="company" placeholder="Nombre de la empresa" />
           <input type="text" name="nombre" placeholder="Nombre completo" />
           <input type="text" name="cp" placeholder="Código Postal" />
