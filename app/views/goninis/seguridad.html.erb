@@ -5,11 +5,11 @@
       <div class="seguridad section header">&nbsp;</div>
       <section class="seguridad body">
         <div class="info"><%= link_to "", como_path %></div>
-        <div class="li col_1">&nbsp;</div>
+        <div class="li col_1" name="online_application">&nbsp;</div>
         <div class="li col_2">&nbsp;</div>
         <div class="li col_3">&nbsp;</div>
         <div class="li row_2 col_1">&nbsp;</div>
-        <div class="li row_2 col_2">&nbsp;</div>
+        <div class="li row_2 col_2" name="fidelity_bond">&nbsp;</div>
         <div class="li row_2 col_3">&nbsp;</div>
         <div class="popup_fianza">&nbsp;</div>
         <div id="handys_tooltip" title="Prestador de servicios validado por goninis">&nbsp;</div>
@@ -17,11 +17,53 @@
       </section>
     </section>
   </div>
+  <div id="fidelity_bond-modal">
+    <div class="modal">
+      <div class="modal-header">        
+        <span class="close"></span>
+      <h3>Finanzas de Fidelidad y Cumplimiento</h3>
+      </div>
+      <div class="modal-body">
+        <p>El prop&oacute;sito de la fianza es remarcar nuestra garant&iacute;a de seguridad hacia nuestros usuarios "&uacute;nica en elmercado" de cumplimiento total del handy para la realizaci&oacute;n de las tareas. Por ello, la fianza es un requisito INDISPENSABLE para todos los candidatos a convertise en Handys.</p>
+        <p>Las aseguradoras no le otorgan una fianza a cualquier persona, realizan una investigaci&oacute;n a fondo sobre los riesgos de afianzar a alguien y determinar en un proceso simultaneo al que goninis realiza, si la persona es confiable y candidata a obtener la fianza. Parea intergar el expediente de confianza todos los handys, las aseguradora revisan:</p>
+        <p>
+          <ul>
+            <li>&#8211; Alta en Hacienda y RFC(cotejo)</li>
+            <li>&#8211; Curp(cotejo)</li>
+            <li>&#8211; Identificacion oficial(cotejo)</li>
+            <li>&#8211; Escritura de Bien inmueble libre de agravamen con sello de RPP(cotejo)</li>
+            <li>&#8211; Relacion patrimonial(anexo)</li>
+            <li>&#8211; boletas prediales correspondientes</li>
+            <li>&#8211; Avalu&oacute; del inmueble(en su caso)</li>
+            <li>&#8211; Acata de matrimonio(en su caso)</li>
+            <li>&#8211; Comprobante de domicilio vigente(cotejo)</li>
+            <li>&#8211; Contrato de Solicitud de Fianza debidamente requisitado y formado</li>
+            <li>&#8211; Historial Credticio(bur&oacute; de cr&eacute;dito)</li>
+            <li>&#8211; Documento fuente motivo de la fianza.(Contrato del handy)</li>
+          </ul>
+        </p>        
+      </div>
+      <div class="modal-footer">
+        <p>S&oacute;lo a los que cumplan con estos requisitos, se les otorga la fianza y pasan al siguiente filtro.</p>
+      </div>
+    </div>
+  </div>
 </div>
 <script>
-    (function($) {
+    (function($) {      
         $(function() {
-            $( document ).tooltip();
+            $( document ).tooltip({ tooltipClass: "gn-tooltip" });
+        });
+
+        $('#gn').find('div[name=online_application]').bind('click', function(){
+          window.location.href = "/conviertete";
+        });
+
+        $('#gn').find('div[name=fidelity_bond]').bind('click', function(){
+          $('#fidelity_bond-modal').show();
+        });
+        $('#gn').find('.close').bind('click', function(){
+          $('#fidelity_bond-modal').hide();
         });
     })(jQuery);
 </script>
