@@ -11,6 +11,7 @@ $iconBtn:url("gn-btn.png");
 $iconTwitter:url("gn-twitter.png");
 $iconFacebook:url("gn-facebook.png");
 $iconCloseModal:url("close_modal.png");
+$gnFont:'Bitter',serif!important;
 
 *{ 
   margin: 0; 
@@ -1011,3 +1012,101 @@ div#fidelity_bond-modal{
     display: block;
   }
 }
+
+/*Form Register*/
+.gn-registration-form{
+  font-family: 'Bitter',serif!important;
+  &.wrapper{
+    background-color:#e4e4e4;
+    width:255px;
+    margin: 10px auto 2em;
+    padding:30px 50px;
+  }
+  .input-wrapper.one {
+    background:url(users_261x108.png) no-repeat;
+    width:261px;
+    margin-bottom:20px;
+  }
+  .input-wrapper.two {
+    background:url(users_261x109.png) no-repeat;
+    width:261px;
+    margin-bottom:20px;
+  }
+  input[type=text]{
+    background:transparent;
+    border-radius:0;
+    box-shadow:none;
+    border:none;
+    width:48%;
+    padding-left:10px;
+    height: 31px;    
+  }
+  input._left{
+      
+    }
+  input._right{
+    width: 42%;
+  }
+  .field{
+    margin:0;
+    padding:0;
+    clear: both;
+  }
+  input[type=submit]{
+    width: 100%;
+  }
+}
+#gn-register{
+  #company_name{
+    display: none;
+  }
+}
+.gn-register-title{
+  text-align: center;
+  font-family: $gnFont;
+  margin-top: 80px;
+  color: #696969;
+  font-size: 20px;
+  font-weight: 100;
+}
+.gn-register-sub-title{
+  color: #006B85;
+  font-size: 16px;
+  font-family: $gnFont;
+  text-align: center;
+}
+.gn-register-message{
+  &._border{
+    border-top: 1px #b1b1b1 solid;
+    border-bottom: 1px #b1b1b1 solid;
+  }
+  text-align: center;
+  color: #696969;
+  font-style: italic;
+  font-family: $gnFont;
+  font-size: 14px;
+  margin-left: 160px;
+  margin-right: 160px;
+  padding: 10px;
+}
+.gn-register-footer{  
+  text-align: center;
+  font-family: $gnFont;
+  margin-left: 120px;
+  margin-right: 120px;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  a{
+    color: #006B85;
+  }
+}
+/*{
+  background:transparent;
+  border-radius:0;
+  box-shadow:none;
+  border:none;
+  width:48%;
+  padding-left:10px;
+}*/
+/*End Form*/

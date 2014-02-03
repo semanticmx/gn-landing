@@ -2,22 +2,54 @@
   <div class="gn-inner-body registrate">
     <%= render partial: "shared/left-menu" %>
     <section id="gn-content" class="clearfix">
-      <div class="join section bg">&nbsp;</div>
-      <div class="join-form">
-        <form>
-          <input type="radio" name="tipo" value="individuo" checked /><label>Soy individuo</label>
-          <input type="radio" name="tipo" value="empresa" /><label>Soy empresa</label>
-          <input type="text" name="company" placeholder="Nombre de la empresa" />
-          <input type="text" name="nombre" placeholder="Nombre completo" />
-          <input type="text" name="cp" placeholder="Código Postal" />
-          <input type="text" name="email" placeholder="Correo electrónico" />
-          <input type="text" name="password" placeholder="Contraseña" />
-          <div class="clickable redirect"><a href="#"></a></div>
-        </form>
-      </div>
-      <div id="gn-content-mailchimp-form">
-        <%= render partial: "shared/mailchimp_join" %>
-      </div>
+      <h2 class="gn-register-title">Crea tu cuenta de goninis</h2>
+      <form id="gn-register" action="" method="GET">
+        <div class="gn-registration-form wrapper">          
+          <div class="input-wrapper">          
+              <div class="field">
+                <input type="radio" name="tipo" value="individuo" id="user" checked />
+                <label for="user">Soy individuo</label>
+                <input type="radio" name="tipo" value="empresa" id="company"/>
+                <label for="company">Soy empresa</label>
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Nombre de la empresa o negocio" id="company_name">
+              </div>
+              <div class="field">
+                <input type="text" class="_left" placeholder="Nombre" id="user_name">
+                <input type="text" class="_right" placeholder="Apellido(s)" id="user_lastname">              
+              </div>            
+              <div class="field">
+                <input type="text" name="cp" placeholder="Código Postal" id="user_cp" />        
+              </div>
+              <div class="field">
+                <input type="text" name="email" placeholder="Correo electrónico" id="user_email" />  
+              </div>
+              <div class="field">
+                <input type="text" name="password" placeholder="Contraseña" id="user_password"/>
+                <input type="text" class="_right" name="c_password" placeholder="Confirmar" id="user_password_confirmation"/>
+              </div>                 
+          </div>    
+            <input type="submit" value="!Unete!">
+        </div>
+      </form>  
+      <div class="gn-register-sub-title">Quiero ser Handy</div>    
+      <div class="gn-register-message _border">Actualmente en Guadalajara y Zapopan</div>  
+      <div class="gn-register-message">Pr&oacute;ximamente en Ciudad de M&eacute;xico y Monterrey</div>
+      <div class="gn-register-footer">Al hacer click en "Unete", reconoces que haz leido y aceptado las <a href="/condiciones">condiciones</a> y <a href="/privacidad">Politicas de privacidad</a></div>
     </section>
   </div>
 </div>
+<script>
+  (function($) {
+      $(function() {
+          $('#gn-register').find('input[type=radio][name=tipo]').change(function (evt) {
+            var element = $('#gn-register').find('#company_name');
+            if($(this).attr('value')=='empresa')              
+              element.show();
+            else
+              element.hide();
+          });          
+      });
+  })(jQuery);
+</script>
