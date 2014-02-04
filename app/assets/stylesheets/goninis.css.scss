@@ -1032,18 +1032,18 @@ div#fidelity_bond-modal{
     width:261px;
     margin-bottom:20px;
   }
-  input[type=text]{
+  input[type=text], input[type=password]{
     background:transparent;
     border-radius:0;
     box-shadow:none;
     border:none;
-    width:48%;
+    width:90%;
     padding-left:10px;
     height: 31px;    
   }
   input._left{
-      
-    }
+    width: 48%;    
+  }
   input._right{
     width: 42%;
   }
