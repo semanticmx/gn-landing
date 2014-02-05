@@ -69,4 +69,5 @@ GnLanding::Application.routes.draw do
    match '/conviertete' => 'goninis#conviertete', :as => 'conviertete'
    match '/seguridad' => 'goninis#seguridad', :as => 'seguridad'
    match '/politicas' => 'goninis#politicas', :as => 'politicas'
+   match '/condiciones' => 'goninis#condiciones', :as => 'condiciones'
 end
