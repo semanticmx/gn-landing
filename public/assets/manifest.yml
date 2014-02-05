@@ -5,6 +5,8 @@ arrow-right_11x14.png: arrow-right_11x14-6d009fa58efcfba07e9904a2f39a91b3.png
 arrow-right_11x14/index.png: arrow-right_11x14-6d009fa58efcfba07e9904a2f39a91b3.png
 carlos-role_463x173.png: carlos-role_463x173-4093b8bdea0928edd52cd2f4a4d70e59.png
 carlos-role_463x173/index.png: carlos-role_463x173-4093b8bdea0928edd52cd2f4a4d70e59.png
+close_modal.png: close_modal-0d8a4e690665e4ddcee3d84b3346a055.png
+close_modal/index.png: close_modal-0d8a4e690665e4ddcee3d84b3346a055.png
 como-611x1885.png: como-611x1885-4d8907b0af38da9ecebe8289bb9a10e1.png
 como-611x1885/index.png: como-611x1885-4d8907b0af38da9ecebe8289bb9a10e1.png
 como-614x1414.png: como-614x1414-7e65b177daa8076272119281649529ff.png
@@ -61,11 +63,15 @@ seguridad-finanzas-708x677.png: seguridad-finanzas-708x677-a2d4f7640138c3f5db7d9
 seguridad-finanzas-708x677/index.png: seguridad-finanzas-708x677-a2d4f7640138c3f5db7d9f15c4401312.png
 sergio-role_463x224.png: sergio-role_463x224-35a417bf6cdeac2af1a05dbb7f297ed0.png
 sergio-role_463x224/index.png: sergio-role_463x224-35a417bf6cdeac2af1a05dbb7f297ed0.png
+users_261x108.png: users_261x108-7046ad84b3c39a298a1d51df5b1ad190.png
+users_261x108/index.png: users_261x108-7046ad84b3c39a298a1d51df5b1ad190.png
+users_261x109.png: users_261x109-0fbd342552ff4f74f0a459eacb73e384.png
+users_261x109/index.png: users_261x109-0fbd342552ff4f74f0a459eacb73e384.png
 usuario_278x411.png: usuario_278x411-1c479563f835240d82c4f3f4bd0c9d7d.png
 usuario_278x411/index.png: usuario_278x411-1c479563f835240d82c4f3f4bd0c9d7d.png
 application.js: application-0290594857c8370edde9e0e8283a414e.js
 application/index.js: application-0290594857c8370edde9e0e8283a414e.js
-application.css: application-a7fe0d6ccd44eb72c697214ab0088657.css
-application/index.css: application-a7fe0d6ccd44eb72c697214ab0088657.css
+application.css: application-695bbd2461749ce4db55b9773126dd73.css
+application/index.css: application-695bbd2461749ce4db55b9773126dd73.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
