@@ -1110,3 +1110,165 @@ div#fidelity_bond-modal{
   padding-left:10px;
 }*/
 /*End Form*/
+
+/*Form Conviertete*/
+#test-form{
+  font-family: $gnFont;
+  h3{
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .new_user h2 {
+    font-size:20px;
+    width: 100%;
+    color:#696969;
+    font-weight:100;
+    text-align:center;
+    margin-left: 171px;
+    margin-top: 20px;
+  }
+
+  .new_user {
+    color:#4b525f;
+  }
+
+  .login-form.wrapper {
+    background-color:#e4e4e4;
+    width:255px;
+    margin:20px auto 2em 332px;;
+    padding:30px 50px;
+  }
+
+  .contact-wrapper {
+    background:url(users_261x108.png) no-repeat;
+    width:261px;
+    margin-bottom:20px;
+    height: 108px;
+  }
+
+  .address-wrapper {
+    background:url(users_261x109.png) no-repeat;
+    width:261px;
+    margin-bottom:20px;
+    height: 108px;
+  }
+
+  .birthdate-wrapper {
+    background:url(user_195x27.png) no-repeat;
+    width:195px;
+    height:27px;
+    margin:10px 0;
+  }
+
+  .birthdate-wrapper select {
+    position:relative;
+    background:transparent;
+    border:0;
+    border-radius:0;
+    box-shadow:none;
+    border:none;
+    width:62px;
+  }
+
+  .contact-wrapper > div.field{
+    padding: 3px;
+  }
+  .address-wrapper > div.field {
+    margin:0;
+    padding:1px;
+  }
+
+  #user_name,
+  #user_lastname,
+  #user_email,
+  #user_password,
+  #user_password_confirmation,
+  #user_calle,
+  #user_cp,
+  #user_colonia,
+  #user_ciudad,
+  #user_phone {
+    background:transparent;
+    border-radius:0;
+    box-shadow:none;
+    border:none;
+    width:46%;
+    padding-left:10px;
+  }
+
+  #user_lastname {
+    width:43%;
+  }
+
+  #user_email,
+  #user_calle {
+    width:98%;
+    margin-top:10px;
+  }
+
+  #user_calle {
+    width:98%;
+    margin-top:0px;
+  }
+
+  #user_password,
+  #user_password_confirmation,
+  #user_cp,
+  #user_colonia,
+  #user_ciudad,
+  #user_phone {
+    width:45%;
+    height:40px;
+  }
+
+  .gender-wrapper .field input:nth-child(2) {
+    margin-left:20px;
+  }
+  .gender-wrapper .field{
+    font-size: 12px;
+  }
+  .prefs.bg {
+    background:url(gender_1020x327.png) no-repeat;
+    width:1020px;
+    height:327px;
+    margin:10px auto;
+    .oficios {
+      position:relative;
+      top:100px;
+      left:273px;
+      width:194px;
+      height:193px;
+      cursor:pointer;
+    }
+    .profesion {
+      position:relative;
+      top:-95px;
+      left:540px;
+      width:194px;
+      height:193px;
+      cursor:pointer;
+    }
+  }
+
+  .actions {
+    text-align:center;
+    margin: 12px 172px 30px;
+    width: 100%;
+  }
+
+  .actions > input[type="submit"] {
+    background:url(continue_263x37.png) no-repeat;
+    width:263px;
+    height:37px;
+    margin:0 auto;
+  }
+  input[type="radio"] {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .field_with_errors {
+    display:none;
+  }
+}
+
+/*End Conviertete*/
