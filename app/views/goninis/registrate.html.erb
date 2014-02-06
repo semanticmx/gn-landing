@@ -2,37 +2,81 @@
   <div class="gn-inner-body registrate">
     <%= render partial: "shared/left-menu" %>
     <section id="gn-content" class="clearfix">
-      <h2 class="gn-register-title">Crea tu cuenta de goninis</h2>
-      <form id="gn-register" action="http://www.goninis.com/users/new" method="GET">
-        <div class="gn-registration-form wrapper">          
-          <div class="input-wrapper">          
+        <form id="new_user" class="new_user" action="http://www.goninis.com/users/new" method="GET">
+          <h2>¡Empecemos!, completa tu información básica</h2>
+
+          <div class="login-form wrapper">
+            <h3>Cuenta</h3>
+            <div class="contact-wrapper">
               <div class="field">
-                <input type="radio" name="type" value="individuo" id="user" checked />
-                <label for="user">Soy individuo</label>
-                <input type="radio" name="type" value="empresa" id="company"/>
-                <label for="company">Soy empresa</label>
+                <input type="text" name="name" id="user_name" placeholder="Nombre">
+                <input type="text" name="lastname" id="user_lastname" placeholder="Apellido(s)">        
               </div>
               <div class="field">
-                <input type="text" placeholder="Nombre de la empresa o negocio" id="company_name">
+                <input type="text" name="email" id="user_email" placeholder="Correo electrónico">
               </div>
               <div class="field">
-                <input type="text" class="_left" placeholder="Nombre" id="user_name" name="name">
-                <input type="text" class="_right" placeholder="Apellido(s)" id="lastname" name="lastname">              
-              </div>            
+                <input type="password" name="password" id="user_password" placeholder="Contraseña">
+                <input type="password" name="password_confirmation" id="user_password_confirmation" placeholder="Reconfirmar">
+              </div>
+            </div>
+             <h3>Dirección</h3>
+            <div class="address-wrapper">
               <div class="field">
-                <input type="text" name="cp" placeholder="Código Postal" id="cp" />        
+                <input type="text" name="calle" id="user_calle" placeholder="Calle y número">
               </div>
               <div class="field">
-                <input type="text" name="email" placeholder="Correo electrónico" id="email" />  
+                <input type="text" name="cp" id="user_cp" placeholder="Código postal">
+                <input type="text" name="colonia" id="user_colonia" placeholder="Colonia">
               </div>
               <div class="field">
-                <input type="password" class="_left"  name="password" placeholder="Contraseña" id="user_password"/>
-                <input type="password" class="_right" name="password_confirmation" placeholder="Confirmar" id="user_password_confirmation"/>
-              </div>                 
-          </div>    
-            <input type="submit" value="!Unete!">
-        </div>
-      </form>  
+                <input type="text" name="ciudad" id="user_ciudad" placeholder="Ciudad">
+                <input type="text" name="phone" id="user_phone" placeholder="Teléfono">
+              </div>
+            </div>
+            <h3>Fecha de nacimiento</h3>
+            <div class="birthdate-wrapper">  
+              <div class="field">
+                <select name="day">
+                  <option>Día</option>
+                  <%
+                  limit = 31;
+                  for counter in 1..limit %>
+                    <option><%= sprintf '%02d', counter %></option>
+                  <% end
+                  %>
+                </select>
+                <select name="month">
+                  <option>Mes</option>
+                  <%
+                  limit = 12;
+                  for counter in 1..limit %>
+                    <option><%= sprintf '%02d', counter %></option>
+                  <% end
+                  %>
+                </select>
+                <select name="year">
+                  <option>Año</option>
+                  <%
+                  limit = 2014;
+                  for counter in 1900..limit %>
+                    <option><%= sprintf '%02d', counter %></option>
+                  <% end
+                  %>
+                </select>
+              </div>
+            </div>
+            <div class="gender-wrapper">
+              <div class="field">
+                <input type="radio" name="genero" value="f" />Mujer
+                <input type="radio" name="genero" value="m" />Hombre
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <input type="submit" value="" name="commit">
+          </div>
+        </form>  
       <div class="gn-register-sub-title">Quiero ser Handy</div>    
       <div class="gn-register-message _border">Actualmente en Guadalajara y Zapopan</div>  
       <div class="gn-register-message">Pr&oacute;ximamente en Ciudad de M&eacute;xico y Monterrey</div>
