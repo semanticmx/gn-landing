@@ -9,27 +9,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <header class="gn-header">
-    <div class="wrapper">
-      <nav>
-        <p>Si ya eres usuario <a href-"#">haz click aqu&iacute;</a></p>
-      </nav>
+  <div class="container">
+
+    <header class="gn-header">
+      <div class="wrapper">
+        <nav>
+          <p>Si ya eres usuario <a href-"#">haz click aqu&iacute;</a></p>
+        </nav>
+      </div>
+    </header>
+    <div id="gn-body">
+      <%= yield %>      
     </div>
-  </header>
-  <div id="gn-body">
-    <%= yield %>
+    <%= render(partial: "shared/footer") %>  
+
   </div>
-  <footer class="gn-footer">
-    <div class="gn-footer-social-networks">
-        <a href="https://twitter.com/goninis"><span class="twitter"></span></a>
-        <a href="https://www.facebook.com/Goninis"><span class="facebook"></span></a>
-    </div>
-  	<div class="gn-footer-policy">
-        <%= link_to "Nosotros", nosotros_path %>
-        <%= link_to "Ayuda", como_path %>
-        <%= link_to "Privacidad", politicas_path %>
-        <%= link_to("Condiciones", "http://landing.goninis.com/condiciones") %>
-    </div>
-  </footer>
 </body>
 </html>

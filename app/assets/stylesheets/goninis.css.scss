@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url(http://fonts.googleapis.com/css?family=Bitter&subset=latin,latin-ext);
-$bgBody:#f2f2f2;
+$bgBody:#777777;
 $iconLogo:url("gn-logo.png");
 $bgHeader:url("gn-header.png");
 $iconPlay:url("gn-play.png");
@@ -28,7 +28,11 @@ body{
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
-
+.container{
+  width: 1110px;
+  margin: 0 auto;
+  background: #F2F2F2;
+}
 #gn-body{
   background-image: linear-gradient(to bottom, #f2f2f2   10%, #4a4a54);  
 }
