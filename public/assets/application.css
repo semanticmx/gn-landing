@@ -31,7 +31,7 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  background: #f2f2f2;
+  background: #777777;
 }
 
 /* line 28, ../../app/assets/stylesheets/goninis.css.scss */
@@ -39,51 +39,58 @@ body {
   font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
-/* line 32, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 31, ../../app/assets/stylesheets/goninis.css.scss */
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  background: #F2F2F2;
+}
+
+/* line 36, ../../app/assets/stylesheets/goninis.css.scss */
 #gn-body {
   background-image: linear-gradient(to bottom, #f2f2f2 10%, #4a4a54);
 }
 
-/* line 35, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 39, ../../app/assets/stylesheets/goninis.css.scss */
 #gn {
   position: relative;
   width: 1018px;
   height: auto;
   margin: 0 auto;
-  background: #f2f2f2;
+  background: #777777;
 }
 
-/* line 42, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 46, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content {
   position: relative;
   width: 680px;
   height: auto;
   float: right;
 }
-/* line 47, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 51, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp {
   margin: 50px 30px 0 22px;
   position: relative;
 }
-/* line 50, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 54, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-login {
   position: relative;
 }
-/* line 52, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 56, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-login span:first-child {
   float: left;
 }
-/* line 55, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 59, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-login span:last-child {
   float: right;
   margin-right: 11px;
 }
-/* line 60, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 64, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form {
   clear: both;
   padding-top: 22px;
 }
-/* line 63, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 67, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .gn-input {
   background-color: #c0c0c0;
   margin-bottom: 50px;
@@ -95,7 +102,7 @@ section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .g
   border-radius: 15px 15px 15px 15px;
   text-shadow: 0 1px 1px #fafbfa;
 }
-/* line 73, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 77, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .gn-input div {
   background: -moz-linear-gradient(center top, #dbdbdb, #e7e7e7) repeat scroll 0 0 transparent;
   background: -webkit-gradient(linear, center top, center bottom, from(#dbdbdb), to(#e7e7e7));
@@ -103,17 +110,17 @@ section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .g
   height: 38%;
   padding: 7px 13px 19px;
 }
-/* line 79, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 83, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .gn-input div #CP {
   margin-left: 5px;
   width: 60px;
 }
-/* line 83, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 87, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .gn-input div #EMAIL {
   width: 236px;
   margin-right: 28px;
 }
-/* line 87, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 91, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .gn-input div input[type=text] {
   border-radius: 5px 5px 5px 5px;
   margin-left: 16px;
@@ -126,13 +133,13 @@ section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .g
   font-weight: bolder;
   font-size: 11px;
 }
-/* line 99, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 103, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .gn-input div label {
   color: #006b85;
   font-size: 14px;
   margin-left: -3px;
 }
-/* line 106, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 110, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .gn-btn {
   background-color: #c0c0c0;
   margin-bottom: 50px;
@@ -147,7 +154,7 @@ section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .g
   position: absolute;
   margin-left: 26px;
 }
-/* line 119, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 123, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .gn-btn div {
   background: -moz-linear-gradient(center top, #cacaca 50%, #e3e3e3) repeat scroll 0 0 transparent;
   background: -webkit-gradient(linear, center top, center bottom, from(#cacaca), to(#e3e3e3));
@@ -156,12 +163,12 @@ section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .g
   height: 30px;
   padding: 6px;
 }
-/* line 126, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 130, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .gn-btn div:hover {
   background: -moz-radial-gradient(center center, circle cover, #f2f2f2 10%, #cacaca 74%, #cacaca 40%);
   background: -webkit-radial-gradient(center top, circle cover, #f2f2f2 10%, #cacaca 80%, #cacaca 40%);
 }
-/* line 131, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 135, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .gn-btn input[type=submit] {
   font-family: 'Bitter',serif;
   width: 100%;
@@ -175,7 +182,7 @@ section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .g
   background: -moz-linear-gradient(center top, #a3c442, #819f34) repeat scroll 0 0 transparent;
   background: -webkit-gradient(linear, center top, center bottom, from(#a3c442), to(#819f34));
 }
-/* line 145, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 149, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .gn-alert {
   color: #333333;
   font-size: 16px;
@@ -184,7 +191,7 @@ section#gn-content section#gn-content-mailchimp div#gn-content-mailchimp-form .g
   position: absolute;
   top: 90px;
 }
-/* line 154, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 158, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp span {
   font-size: 11px;
   display: inline-block;
@@ -192,12 +199,12 @@ section#gn-content section#gn-content-mailchimp span {
   font-weight: bold;
   font-family: 'Bitter',serif;
 }
-/* line 160, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 164, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-mailchimp span a {
   text-decoration: none;
   color: #7c9d35;
 }
-/* line 166, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 170, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-video {
   height: 390px;
   margin-left: 20px;
@@ -208,7 +215,7 @@ section#gn-content section#gn-content-video {
   background-image: url(como-flow_619x383.png);
   background-repeat: no-repeat;
 }
-/* line 175, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 179, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-video div.gn-content-video-border-left {
   background: -moz-radial-gradient(center right, ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%);
   background: -webkit-radial-gradient(center right, ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%);
@@ -217,7 +224,7 @@ section#gn-content section#gn-content-video div.gn-content-video-border-left {
   position: absolute;
   width: 25px;
 }
-/* line 183, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 187, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-video div.gn-content-video-border-right {
   background: -moz-radial-gradient(center left, ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%);
   background: -webkit-radial-gradient(center left, ellipse cover, #cbcbcb -10%, #f2f2f2 50%, #f2f2f2 40%);
@@ -225,18 +232,18 @@ section#gn-content section#gn-content-video div.gn-content-video-border-right {
   height: 100%;
   width: 25px;
 }
-/* line 190, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 194, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-video iframe {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-/* line 195, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 199, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-video img.video-thumbnail {
   width: 100%;
   height: 100%;
 }
-/* line 199, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 203, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-video div.video-popup {
   height: 170px;
   left: 300px;
@@ -244,13 +251,13 @@ section#gn-content section#gn-content-video div.video-popup {
   text-align: center;
   top: 150px;
 }
-/* line 205, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 209, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-video div.video-popup h1 {
   color: #006b85;
   font-family: 'Bitter',serif;
   font-weight: normal;
 }
-/* line 210, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 214, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-video div.video-popup h4 {
   color: #7c7c7d;
   font-weight: normal;
@@ -258,12 +265,12 @@ section#gn-content section#gn-content-video div.video-popup h4 {
   font-size: 16px;
   padding-top: 9px;
 }
-/* line 217, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 221, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-video div.video-popup span {
   font-size: 12px;
   color: #313131;
 }
-/* line 221, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 225, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-video div.video-popup div.video-play {
   background: url("gn-play.png");
   background-repeat: no-repeat;
@@ -272,19 +279,19 @@ section#gn-content section#gn-content-video div.video-popup div.video-play {
   margin: 24px auto;
   cursor: pointer;
 }
-/* line 228, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 232, ../../app/assets/stylesheets/goninis.css.scss */
 section#gn-content section#gn-content-video div.video-popup div.video-play:hover {
   background: url("gn-play-hover.png");
 }
 
-/* line 235, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 239, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar {
   position: relative;
   width: 336px;
   height: auto;
   float: left;
 }
-/* line 240, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 244, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar div.gn-sidebar-border {
   border-left: 1px solid #EDEDED;
   background: radial-gradient(center left, ellipse, #cbcbcb 6%, #f2f2f2 72px);
@@ -298,33 +305,33 @@ aside#gn-sidebar div.gn-sidebar-border {
   top: 0;
   width: 30px;
 }
-/* line 253, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 257, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar div#gn-logo {
   background: url("gn-logo.png");
   background-repeat: no-repeat;
   margin: 20px 0 65px 25px;
   height: 100px;
 }
-/* line 259, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 263, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar nav#gn-menu-nav {
   text-align: center;
   width: 278px;
 }
-/* line 262, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 266, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar nav#gn-menu-nav ul {
   list-style: none;
   margin: 0 0 46px;
   padding-left: 4px;
   padding-right: 1px;
 }
-/* line 267, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 271, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar nav#gn-menu-nav ul li {
   cursor: pointer;
   height: 100%;
   display: block;
   list-style: none outside none;
 }
-/* line 272, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 276, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar nav#gn-menu-nav ul li a {
   text-decoration: none;
   color: #3b3c48;
@@ -337,32 +344,32 @@ aside#gn-sidebar nav#gn-menu-nav ul li a {
   text-decoration: none;
   width: 100%;
 }
-/* line 283, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 287, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar nav#gn-menu-nav ul li a:hover {
   background: -moz-radial-gradient(center center, circle cover, #e8e8e8 5%, #f2f2f2 70%, #f2f2f2 40%);
   background: -webkit-radial-gradient(center top, circle cover, #cbcbcb -70%, #f2f2f2 78%, #f2f2f2 40%);
 }
-/* line 288, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 292, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar nav#gn-menu-nav ul li a.gn-text-highlight {
   color: #006b85;
 }
-/* line 290, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 294, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar nav#gn-menu-nav ul li a.gn-text-highlight span {
   font-weight: bold;
   font-size: 16px;
 }
-/* line 297, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 301, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar nav#gn-menu-nav .gn-menu-wrapper {
   background: -moz-radial-gradient(center top, ellipse cover, #cbcbcb 10%, #f2f2f2 74%, #f2f2f2 40%);
   background: -webkit-radial-gradient(center top, ellipse cover, #cbcbcb 10%, #f2f2f2 80%, #f2f2f2 40%);
   height: 4px;
 }
-/* line 302, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 306, ../../app/assets/stylesheets/goninis.css.scss */
 aside#gn-sidebar nav#gn-menu-nav .first {
   margin-bottom: -2px;
 }
 
-/* line 307, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 311, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-header {
   background-color: #454757;
   background-image: linear-gradient(to bottom, #31313b 10%, #4a4a54);
@@ -373,24 +380,24 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   height: 37px;
   width: 100%;
 }
-/* line 316, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 320, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-header .wrapper {
   margin: 0 auto;
   max-width: 1024px;
 }
-/* line 319, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 323, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-header .wrapper nav {
   margin-top: 6px;
   color: #F2F2F2;
   float: right;
   font-size: 12px;
 }
-/* line 324, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 328, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-header .wrapper nav a {
   color: #7c9d35;
 }
 
-/* line 330, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 334, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-footer {
   background: -webkit-linear-gradient(to top, #3b3c48 88%, #121216);
   background: -moz-linear-gradient(to top, #3b3c48 88%, #121216);
@@ -401,7 +408,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   height: 71px;
   clear: both;
 }
-/* line 339, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 343, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-footer div.gn-footer-policy {
   color: #ffffff;
   font-size: 12px;
@@ -410,23 +417,23 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   margin-top: 30px;
   cursor: pointer;
 }
-/* line 346, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 350, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-footer div.gn-footer-policy a {
   color: #FFF;
   text-decoration: none;
   margin-left: 10px;
 }
-/* line 351, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 355, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-footer div.gn-footer-policy:hover {
   color: #c3c3c3;
 }
-/* line 355, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 359, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-footer div.gn-footer-social-networks {
   float: left;
   margin-left: 208px;
   margin-top: 18px;
 }
-/* line 359, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 363, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-footer div.gn-footer-social-networks span.twitter {
   background: url("gn-twitter.png");
   background-repeat: no-repeat;
@@ -436,7 +443,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   cursor: pointer;
   margin-right: 5px;
 }
-/* line 368, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 372, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-footer div.gn-footer-social-networks span.facebook {
   background: url("gn-facebook.png");
   background-repeat: no-repeat;
@@ -446,7 +453,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   cursor: pointer;
 }
 
-/* line 382, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 386, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.nosotros #gn-menu-nav ul li.nosotros a {
   background-repeat: no-repeat !important;
   background-position: center right !important;
@@ -458,7 +465,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   background-image: url(arrow-right_11x14.png), radial-gradient(center center, circle cover, #d8d8d8 5%, #f2f2f2 100%, #f2f2f2 40%) !important;
 }
 
-/* line 400, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 404, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.como #gn-menu-nav ul li.como a {
   background-repeat: no-repeat !important;
   background-position: center right !important;
@@ -470,7 +477,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   background-image: url(arrow-right_11x14.png), radial-gradient(center center, circle cover, #d8d8d8 5%, #f2f2f2 100%, #f2f2f2 40%) !important;
 }
 
-/* line 418, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 422, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.porque #gn-menu-nav ul li.porque a {
   background-repeat: no-repeat !important;
   background-position: center right !important;
@@ -482,7 +489,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   background-image: url(arrow-right_11x14.png), radial-gradient(center center, circle cover, #d8d8d8 5%, #f2f2f2 100%, #f2f2f2 40%) !important;
 }
 
-/* line 436, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 440, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.registrate #gn-menu-nav ul li.registrate a {
   background-repeat: no-repeat !important;
   background-position: center right !important;
@@ -494,7 +501,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   background-image: url(arrow-right_11x14.png), radial-gradient(center center, circle cover, #d8d8d8 5%, #f2f2f2 100%, #f2f2f2 40%) !important;
 }
 
-/* line 454, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 458, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.conviertete #gn-menu-nav ul li.conviertete a {
   background-repeat: no-repeat !important;
   background-position: center right !important;
@@ -506,7 +513,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   background-image: url(arrow-right_11x14.png), radial-gradient(center center, circle cover, #d8d8d8 5%, #f2f2f2 100%, #f2f2f2 40%) !important;
 }
 
-/* line 468, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 472, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.section.header {
   margin: 40px auto 10px auto;
   background-image: url(nosotros-info.png);
@@ -514,14 +521,14 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   height: 430px;
 }
 
-/* line 474, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 478, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body {
   margin: 0 auto;
   width: 637px;
   min-height: 300px;
 }
 
-/* line 482, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 486, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body .sergio,
 .nosotros.body .nismet,
 .nosotros.body .guillermo,
@@ -536,43 +543,43 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   cursor: pointer;
 }
 
-/* line 492, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 496, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body .nismet {
   background-position: -160px 0;
 }
 
-/* line 495, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 499, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body .guillermo {
   background-position: -316px 0;
 }
 
-/* line 498, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 502, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body .carlos {
   margin-right: 0px;
   background-position: -473px 0;
 }
 
-/* line 502, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 506, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body .sergio:hover {
   background-position: 2px -171px;
 }
 
-/* line 505, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 509, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body .nismet:hover {
   background-position: -158px -171px;
 }
 
-/* line 508, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 512, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body .guillermo:hover {
   background-position: -314px -171px;
 }
 
-/* line 511, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 515, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body .carlos:hover {
   background-position: -471px -171px;
 }
 
-/* line 514, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 518, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body > .sergio:hover > .role {
   background: url(sergio-role_463x224.png) no-repeat;
   width: 463px;
@@ -580,7 +587,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   margin: 200px 0;
 }
 
-/* line 520, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 524, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body > .nismet:hover > .role {
   background: url(nismet-role_463x197.png) no-repeat;
   width: 463px;
@@ -588,7 +595,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   margin: 200px 0 0 -160px;
 }
 
-/* line 526, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 530, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body > .guillermo:hover > .role {
   background: url(guillermo-role_463x182.png) no-repeat;
   width: 463px;
@@ -596,7 +603,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   margin: 200px 0 0 -160px;
 }
 
-/* line 532, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 536, ../../app/assets/stylesheets/goninis.css.scss */
 .nosotros.body > .carlos:hover > .role {
   background: url(carlos-role_463x173.png) no-repeat;
   width: 463px;
@@ -604,7 +611,7 @@ aside#gn-sidebar nav#gn-menu-nav .first {
   margin: 200px 0 0 -320px;
 }
 
-/* line 538, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 542, ../../app/assets/stylesheets/goninis.css.scss */
 section.como.header {
   margin: 540px auto 10px auto;
   background-image: url(como-614x1414.png);
@@ -613,19 +620,19 @@ section.como.header {
   height: 1485px;
 }
 
-/* line 545, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 549, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.como #gn-content-video {
   margin: 81px 0px 0px 28px !important;
 }
 
-/* line 550, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 554, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.porque #gn-content .porque.body {
   background: url(porque-bg_642x467.png) no-repeat;
   width: 642px;
   height: 467px;
   margin: 40px auto;
 }
-/* line 555, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 559, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.porque #gn-content .porque.body .empresa {
   background: url(usuario_278x411.png) no-repeat;
   width: 278px;
@@ -633,7 +640,7 @@ section.como.header {
   float: left;
   margin-top: 30px;
 }
-/* line 562, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 566, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.porque #gn-content .porque.body .handy {
   background: url(handy_285x417.png) no-repeat;
   width: 285px;
@@ -642,7 +649,7 @@ section.como.header {
   margin-top: 25px;
 }
 
-/* line 572, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 576, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.porque #gn-content .porque.body.handy {
   background: url(porque_handy_642x1424.png) no-repeat;
   width: 642px;
@@ -650,7 +657,7 @@ section.como.header {
   margin: -10px auto;
 }
 
-/* line 578, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 582, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.porque #gn-content .porque.body.usuario {
   background: url(porque_usuario_671x1796.png) no-repeat;
   width: 671px;
@@ -658,7 +665,7 @@ section.como.header {
   margin: -10px auto;
 }
 
-/* line 585, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 589, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.conviertete .conviertete.body {
   background: url(conviertete-659x683.png) no-repeat;
   width: 659px;
@@ -666,12 +673,12 @@ section.como.header {
   margin: -10px auto;
 }
 
-/* line 592, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 596, ../../app/assets/stylesheets/goninis.css.scss */
 .conviertete.body {
   position: relative;
 }
 
-/* line 596, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 600, ../../app/assets/stylesheets/goninis.css.scss */
 .conviertete.body .faq {
   position: absolute;
   top: 75px;
@@ -681,7 +688,7 @@ section.como.header {
   cursor: pointer;
 }
 
-/* line 605, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 609, ../../app/assets/stylesheets/goninis.css.scss */
 .conviertete.body .tareas.del-hogar {
   position: absolute;
   top: 413px;
@@ -691,7 +698,7 @@ section.como.header {
   cursor: pointer;
 }
 
-/* line 614, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 618, ../../app/assets/stylesheets/goninis.css.scss */
 .conviertete.body .tareas.profesionales {
   position: absolute;
   top: 413px;
@@ -701,12 +708,12 @@ section.como.header {
   cursor: pointer;
 }
 
-/* line 623, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 627, ../../app/assets/stylesheets/goninis.css.scss */
 div.clickable {
   position: relative;
 }
 
-/* line 627, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 631, ../../app/assets/stylesheets/goninis.css.scss */
 div.clickable a {
   position: absolute;
   width: 100%;
@@ -725,12 +732,12 @@ div.clickable a {
   /*workaround to make clickable in IE */
 }
 
-/* line 645, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 649, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body {
   position: relative;
 }
 
-/* line 648, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 652, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body .info {
   background: url(seguridad-642x602.png) no-repeat;
   width: 642px;
@@ -738,7 +745,7 @@ div.clickable a {
   margin: 50px 0;
 }
 
-/* line 655, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 659, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body .li {
   position: absolute;
   width: 200px;
@@ -748,52 +755,52 @@ div.clickable a {
   cursor: pointer;
 }
 
-/* line 664, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 668, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body .li.row_2 {
   top: 260px;
 }
 
-/* line 668, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 672, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body .li.col_2 {
   left: 221px;
 }
 
-/* line 672, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 676, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body .li.col_3 {
   left: 441px;
 }
 
-/* line 676, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 680, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body .li:hover {
   background: url(seguridad-boxes-648x318.png) no-repeat -3px 0;
 }
 
-/* line 680, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 684, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body .li.col_2:hover {
   background: url(seguridad-boxes-648x318.png) no-repeat -224px 0;
 }
 
-/* line 684, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 688, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body .li.col_3:hover {
   background: url(seguridad-boxes-648x318.png) no-repeat -445px 0;
 }
 
-/* line 688, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 692, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body .li.row_2.col_1:hover {
   background: url(seguridad-boxes-648x318.png) no-repeat -3px -170px;
 }
 
-/* line 692, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 696, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body .li.row_2.col_2:hover {
   background: url(seguridad-boxes-648x318.png) no-repeat -224px -170px;
 }
 
-/* line 696, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 700, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.seguridad .seguridad.body .li.row_2.col_3:hover {
   background: url(seguridad-boxes-648x318.png) no-repeat -445px -170px;
 }
 
-/* line 700, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 704, ../../app/assets/stylesheets/goninis.css.scss */
 .join.section.bg {
   position: absolute;
   top: 30px;
@@ -804,7 +811,7 @@ div.clickable a {
   z-index: 1;
 }
 
-/* line 710, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 714, ../../app/assets/stylesheets/goninis.css.scss */
 .join-form {
   position: absolute;
   top: 120px;
@@ -817,12 +824,12 @@ div.clickable a {
   font-weight: 100;
 }
 
-/* line 722, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 726, ../../app/assets/stylesheets/goninis.css.scss */
 .join-form label {
   margin-left: 7px;
 }
 
-/* line 726, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 730, ../../app/assets/stylesheets/goninis.css.scss */
 .join-form input {
   background-color: #f3f3f3;
   padding: 6px;
@@ -835,12 +842,12 @@ div.clickable a {
   box-shadow: 1px 1px 1px rgba(146, 148, 151, 0.75);
 }
 
-/* line 739, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 743, ../../app/assets/stylesheets/goninis.css.scss */
 .join-form input[type="text"] {
   width: 90%;
 }
 
-/* line 743, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 747, ../../app/assets/stylesheets/goninis.css.scss */
 .clickable.redirect {
   position: relative;
   top: 30px;
@@ -849,7 +856,7 @@ div.clickable a {
   height: 30px;
 }
 
-/* line 751, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 755, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.politicas #gn-content, .gn-inner-body.condiciones #gn-content {
   font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
   font-size: 0.7em;
@@ -863,7 +870,7 @@ div.clickable a {
   padding: 40px;
 }
 
-/* line 764, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 768, ../../app/assets/stylesheets/goninis.css.scss */
 #handys_tooltip {
   position: absolute;
   top: 34px;
@@ -873,7 +880,7 @@ div.clickable a {
   cursor: pointer;
 }
 
-/* line 776, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 780, ../../app/assets/stylesheets/goninis.css.scss */
 #handy_tooltip {
   position: absolute;
   top: 430px;
@@ -883,7 +890,7 @@ div.clickable a {
   cursor: pointer;
 }
 
-/* line 788, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 792, ../../app/assets/stylesheets/goninis.css.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -893,22 +900,22 @@ div.clickable a {
   height: 0;
 }
 
-/* line 797, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 801, ../../app/assets/stylesheets/goninis.css.scss */
 .clearfix {
   display: inline-block;
 }
 
-/* line 801, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 805, ../../app/assets/stylesheets/goninis.css.scss */
 html[xmlns] .clearfix {
   display: block;
 }
 
-/* line 805, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 809, ../../app/assets/stylesheets/goninis.css.scss */
 * html .clearfix {
   height: 1%;
 }
 
-/* line 809, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 813, ../../app/assets/stylesheets/goninis.css.scss */
 .modal {
   font-family: "Bitter", serif !important;
   position: fixed;
@@ -933,7 +940,7 @@ html[xmlns] .clearfix {
   background-clip: padding-box;
 }
 
-/* line 833, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 837, ../../app/assets/stylesheets/goninis.css.scss */
 .modal.fade {
   top: -25%;
   -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
@@ -943,29 +950,29 @@ html[xmlns] .clearfix {
 }
 
 /*Start Modal*/
-/* line 842, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 846, ../../app/assets/stylesheets/goninis.css.scss */
 .modal.fade.in {
   top: 10%;
 }
 
-/* line 846, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 850, ../../app/assets/stylesheets/goninis.css.scss */
 .modal-header {
   padding: 9px 15px;
   border-bottom: 1px solid #eee;
 }
 
-/* line 851, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 855, ../../app/assets/stylesheets/goninis.css.scss */
 .modal-header .close {
   margin-top: 2px;
 }
 
-/* line 855, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 859, ../../app/assets/stylesheets/goninis.css.scss */
 .modal-header h3 {
   margin: 0;
   line-height: 30px;
 }
 
-/* line 860, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 864, ../../app/assets/stylesheets/goninis.css.scss */
 .modal-body {
   position: relative;
   max-height: 580px;
@@ -974,12 +981,12 @@ html[xmlns] .clearfix {
   margin-left: 50px;
 }
 
-/* line 868, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 872, ../../app/assets/stylesheets/goninis.css.scss */
 .modal-form {
   margin-bottom: 0;
 }
 
-/* line 872, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 876, ../../app/assets/stylesheets/goninis.css.scss */
 .modal-footer {
   padding: 14px 15px 15px;
   margin-bottom: 0;
@@ -995,7 +1002,7 @@ html[xmlns] .clearfix {
   box-shadow: inset 0 1px 0 #ffffff;
 }
 
-/* line 888, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 892, ../../app/assets/stylesheets/goninis.css.scss */
 .modal-footer:before,
 .modal-footer:after {
   display: table;
@@ -1003,48 +1010,48 @@ html[xmlns] .clearfix {
   content: "";
 }
 
-/* line 894, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 898, ../../app/assets/stylesheets/goninis.css.scss */
 .modal-footer:after {
   clear: both;
 }
 
-/* line 898, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 902, ../../app/assets/stylesheets/goninis.css.scss */
 .modal-footer .btn + .btn {
   margin-bottom: 0;
   margin-left: 5px;
 }
 
-/* line 903, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 907, ../../app/assets/stylesheets/goninis.css.scss */
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
 
-/* line 907, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 911, ../../app/assets/stylesheets/goninis.css.scss */
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
 
-/* line 910, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 914, ../../app/assets/stylesheets/goninis.css.scss */
 div#fidelity_bond-modal {
   display: none;
   font-size: 14px;
 }
-/* line 913, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 917, ../../app/assets/stylesheets/goninis.css.scss */
 div#fidelity_bond-modal ul {
   margin-left: 20px;
   list-style: none;
 }
-/* line 917, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 921, ../../app/assets/stylesheets/goninis.css.scss */
 div#fidelity_bond-modal .modal-header {
   margin-left: 50px;
   color: #006B85;
   font-size: 16px;
 }
-/* line 918, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 922, ../../app/assets/stylesheets/goninis.css.scss */
 div#fidelity_bond-modal .modal-header img {
   display: inline-block;
 }
-/* line 924, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 928, ../../app/assets/stylesheets/goninis.css.scss */
 div#fidelity_bond-modal .modal-header .close {
   float: right;
   font-size: 20px;
@@ -1055,14 +1062,14 @@ div#fidelity_bond-modal .modal-header .close {
   width: 20px;
   filter: alpha(opacity=20);
 }
-/* line 933, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 937, ../../app/assets/stylesheets/goninis.css.scss */
 div#fidelity_bond-modal .modal-header .close:hover, div#fidelity_bond-modal .modal-header .close:focus {
   text-decoration: none;
   cursor: pointer;
   opacity: 0.8;
   filter: alpha(opacity=80);
 }
-/* line 941, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 945, ../../app/assets/stylesheets/goninis.css.scss */
 div#fidelity_bond-modal .modal-footer {
   color: #006B85;
   background: transparent;
@@ -1071,13 +1078,13 @@ div#fidelity_bond-modal .modal-footer {
 }
 
 /*End Modal*/
-/* line 949, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 953, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-tooltip {
   font-size: 14px !important;
   font-family: "Bitter", serif !important;
 }
 
-/* line 954, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 958, ../../app/assets/stylesheets/goninis.css.scss */
 #why_handy, #why_user {
   width: 130px;
   height: 160px;
@@ -1085,7 +1092,7 @@ div#fidelity_bond-modal .modal-footer {
   position: absolute;
   top: 1px;
 }
-/* line 960, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 964, ../../app/assets/stylesheets/goninis.css.scss */
 #why_handy a, #why_user a {
   width: 100%;
   height: 100%;
@@ -1093,16 +1100,16 @@ div#fidelity_bond-modal .modal-footer {
 }
 
 /*Form Conviertete*/
-/* line 969, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 973, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form, .gn-inner-body.registrate {
   font-family: "Bitter", serif !important;
 }
-/* line 971, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 975, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form h3, .gn-inner-body.registrate h3 {
   font-weight: normal;
   font-size: 14px;
 }
-/* line 975, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 979, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .new_user h2, .gn-inner-body.registrate .new_user h2 {
   font-size: 20px;
   width: 100%;
@@ -1112,39 +1119,39 @@ div#fidelity_bond-modal .modal-footer {
   margin-left: 171px;
   margin-top: 20px;
 }
-/* line 985, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 989, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .new_user, .gn-inner-body.registrate .new_user {
   color: #4b525f;
 }
-/* line 989, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 993, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .login-form.wrapper, .gn-inner-body.registrate .login-form.wrapper {
   background-color: #e4e4e4;
   width: 255px;
-  margin: 20px auto 2em 332px;
+  margin: 20px auto 2em 172px;
   padding: 30px 50px;
 }
-/* line 996, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1000, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .contact-wrapper, .gn-inner-body.registrate .contact-wrapper {
   background: url(users_261x108.png) no-repeat;
   width: 261px;
   margin-bottom: 20px;
   height: 108px;
 }
-/* line 1003, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1007, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .address-wrapper, .gn-inner-body.registrate .address-wrapper {
   background: url(users_261x109.png) no-repeat;
   width: 261px;
   margin-bottom: 20px;
   height: 108px;
 }
-/* line 1010, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1014, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .birthdate-wrapper, .gn-inner-body.registrate .birthdate-wrapper {
   background: url(user_195x27.png) no-repeat;
   width: 195px;
   height: 27px;
   margin: 10px 0;
 }
-/* line 1017, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1021, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .birthdate-wrapper select, .gn-inner-body.registrate .birthdate-wrapper select {
   position: relative;
   background: transparent;
@@ -1154,16 +1161,16 @@ div#fidelity_bond-modal .modal-footer {
   border: none;
   width: 62px;
 }
-/* line 1027, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1031, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .contact-wrapper > div.field, .gn-inner-body.registrate .contact-wrapper > div.field {
   padding: 3px;
 }
-/* line 1030, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1034, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .address-wrapper > div.field, .gn-inner-body.registrate .address-wrapper > div.field {
   margin: 0;
   padding: 1px;
 }
-/* line 1044, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1048, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form #user_name,
 #test-form #user_lastname,
 #test-form #user_email,
@@ -1190,23 +1197,23 @@ div#fidelity_bond-modal .modal-footer {
   width: 46%;
   padding-left: 10px;
 }
-/* line 1053, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1057, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form #user_lastname, .gn-inner-body.registrate #user_lastname {
   width: 43%;
 }
-/* line 1058, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1062, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form #user_email,
 #test-form #user_calle, .gn-inner-body.registrate #user_email,
 .gn-inner-body.registrate #user_calle {
   width: 98%;
   margin-top: 10px;
 }
-/* line 1063, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1067, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form #user_calle, .gn-inner-body.registrate #user_calle {
   width: 98%;
   margin-top: 0px;
 }
-/* line 1073, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1077, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form #user_password,
 #test-form #user_password_confirmation,
 #test-form #user_cp,
@@ -1221,22 +1228,24 @@ div#fidelity_bond-modal .modal-footer {
   width: 45%;
   height: 40px;
 }
-/* line 1078, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1082, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .gender-wrapper .field input:nth-child(2), .gn-inner-body.registrate .gender-wrapper .field input:nth-child(2) {
   margin-left: 20px;
 }
-/* line 1081, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1085, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .gender-wrapper .field, .gn-inner-body.registrate .gender-wrapper .field {
   font-size: 12px;
 }
-/* line 1084, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1088, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .prefs.bg, .gn-inner-body.registrate .prefs.bg {
   background: url(gender_1020x327.png) no-repeat;
-  width: 1020px;
+  width: 600px;
   height: 327px;
   margin: 10px auto;
+  background-size: cover;
+  background-position: -200px 0;
 }
-/* line 1089, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1096, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .prefs.bg .oficios, .gn-inner-body.registrate .prefs.bg .oficios {
   position: relative;
   top: 100px;
@@ -1245,7 +1254,7 @@ div#fidelity_bond-modal .modal-footer {
   height: 193px;
   cursor: pointer;
 }
-/* line 1097, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1104, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .prefs.bg .profesion, .gn-inner-body.registrate .prefs.bg .profesion {
   position: relative;
   top: -95px;
@@ -1254,50 +1263,49 @@ div#fidelity_bond-modal .modal-footer {
   height: 193px;
   cursor: pointer;
 }
-/* line 1107, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1114, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .actions, .gn-inner-body.registrate .actions {
   text-align: center;
   margin: 12px 172px 30px;
-  width: 100%;
 }
-/* line 1113, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1119, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .actions > input[type="submit"], .gn-inner-body.registrate .actions > input[type="submit"] {
   background: url(continue_263x37.png) no-repeat;
   width: 263px;
   height: 37px;
   margin: 0 auto;
 }
-/* line 1119, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1125, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form input[type="radio"], .gn-inner-body.registrate input[type="radio"] {
   margin-right: 10px;
   margin-top: 10px;
 }
-/* line 1123, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1129, ../../app/assets/stylesheets/goninis.css.scss */
 #test-form .field_with_errors, .gn-inner-body.registrate .field_with_errors {
   display: none;
 }
 
 /*End Conviertete*/
-/* line 1131, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1137, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.registrate .new_user h2 {
   margin-left: 0;
 }
-/* line 1134, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1140, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.registrate .login-form.wrapper {
   margin: 20px auto 2em 169px;
 }
-/* line 1137, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1143, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.registrate .actions {
   margin: 0 7px 30px;
 }
-/* line 1140, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1146, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.registrate .gn-register-sub-title {
   color: #006B85;
   font-size: 16px;
   font-family: "Bitter", serif !important;
   text-align: center;
 }
-/* line 1146, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1152, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.registrate .gn-register-message {
   text-align: center;
   color: #696969;
@@ -1308,12 +1316,12 @@ div#fidelity_bond-modal .modal-footer {
   margin-right: 160px;
   padding: 10px;
 }
-/* line 1147, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1153, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.registrate .gn-register-message._border {
   border-top: 1px #b1b1b1 solid;
   border-bottom: 1px #b1b1b1 solid;
 }
-/* line 1160, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1166, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.registrate .gn-register-footer {
   text-align: center;
   font-family: "Bitter", serif !important;
@@ -1322,8 +1330,9 @@ div#fidelity_bond-modal .modal-footer {
   font-style: italic;
   margin-left: 120px;
   margin-right: 120px;
+  margin-bottom: 20px;
 }
-/* line 1168, ../../app/assets/stylesheets/goninis.css.scss */
+/* line 1175, ../../app/assets/stylesheets/goninis.css.scss */
 .gn-inner-body.registrate .gn-register-footer a {
   color: #006B85;
 }

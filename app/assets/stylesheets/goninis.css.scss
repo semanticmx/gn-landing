@@ -993,7 +993,7 @@ div#fidelity_bond-modal{
   .login-form.wrapper {
     background-color:#e4e4e4;
     width:255px;
-    margin:20px auto 2em 332px;;
+    margin:20px auto 2em 172px;;
     padding:30px 50px;
   }
 
@@ -1087,9 +1087,12 @@ div#fidelity_bond-modal{
   }
   .prefs.bg {
     background:url(gender_1020x327.png) no-repeat;
-    width:1020px;
+    width:600px;
     height:327px;
     margin:10px auto;
+    background-size: cover;
+    background-position: -200px 0;
+
     .oficios {
       position:relative;
       top:100px;
@@ -1111,7 +1114,6 @@ div#fidelity_bond-modal{
   .actions {
     text-align:center;
     margin: 12px 172px 30px;
-    width: 100%;
   }
 
   .actions > input[type="submit"] {
